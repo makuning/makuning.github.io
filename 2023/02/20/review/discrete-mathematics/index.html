@@ -1,0 +1,462 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>大三上离散数学期末复习提纲 | InsectMk's Blog</title><meta name="author" content="InsectMk"><meta name="copyright" content="InsectMk"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="大三上离散数学期末复习提纲命题逻辑命题及其表示具有唯一真值的陈述句称为命题 原子命题：没有联结词的命题 复合命题：有联结词的命题 命题通常使用大写字母P,Q,R等表示 命题变元，命题常元 命题常元如：P:今天下雨 逻辑联结词 否定    P 非P    0 1   1 0    合取    P Q P ^ Q    0 0 0   0 1 0   1 0 0   1 1 1    析取    P">
+<meta property="og:type" content="article">
+<meta property="og:title" content="大三上离散数学期末复习提纲">
+<meta property="og:url" content="https://makuning.github.io/2023/02/20/review/discrete-mathematics/index.html">
+<meta property="og:site_name" content="InsectMk&#39;s Blog">
+<meta property="og:description" content="大三上离散数学期末复习提纲命题逻辑命题及其表示具有唯一真值的陈述句称为命题 原子命题：没有联结词的命题 复合命题：有联结词的命题 命题通常使用大写字母P,Q,R等表示 命题变元，命题常元 命题常元如：P:今天下雨 逻辑联结词 否定    P 非P    0 1   1 0    合取    P Q P ^ Q    0 0 0   0 1 0   1 0 0   1 1 1    析取    P">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://image.insectmk.cn/hexo-gitee-blog/article/_post/review/discrete-mathematics/cover.jpg">
+<meta property="article:published_time" content="2023-02-20T06:45:50.000Z">
+<meta property="article:modified_time" content="2023-02-26T06:45:50.000Z">
+<meta property="article:author" content="InsectMk">
+<meta property="article:tag" content="离散数学">
+<meta property="article:tag" content="期末复习">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://image.insectmk.cn/hexo-gitee-blog/article/_post/review/discrete-mathematics/cover.jpg"><link rel="shortcut icon" href="/img/website/favicon.jpg"><link rel="canonical" href="https://makuning.github.io/2023/02/20/review/discrete-mathematics/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '大三上离散数学期末复习提纲',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2023-02-26 14:45:50'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="//at.alicdn.com/t/c/font_3795172_2ks90hgvbrb.css"><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/head/little-boy.png" onerror="onerror=null;src='/img/website/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">30</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">44</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">10</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-graduation-cap"></i><span> 博文</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fa fa-archive"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fa fa-folder-open"></i><span> 归档</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/messageboard/"><i class="fa-fw fa fa-paper-plane"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw iconfont icon-xiuxiankafeiyule"></i><span> 生活</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/gallery/"><i class="fa-fw iconfont icon-tuku"></i><span> 图库</span></a></li><li><a class="site-page child" href="/test/"><i class="fa-fw iconfont icon-shiyanshi"></i><span> 实验</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-id-card"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://image.insectmk.cn/hexo-gitee-blog/article/_post/review/discrete-mathematics/cover.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="InsectMk's Blog"><span class="site-name">InsectMk's Blog</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-graduation-cap"></i><span> 博文</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fa fa-archive"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fa fa-folder-open"></i><span> 归档</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/messageboard/"><i class="fa-fw fa fa-paper-plane"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw iconfont icon-xiuxiankafeiyule"></i><span> 生活</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/gallery/"><i class="fa-fw iconfont icon-tuku"></i><span> 图库</span></a></li><li><a class="site-page child" href="/test/"><i class="fa-fw iconfont icon-shiyanshi"></i><span> 实验</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-id-card"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">大三上离散数学期末复习提纲</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-02-20T06:45:50.000Z" title="发表于 2023-02-20 14:45:50">2023-02-20</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-02-26T06:45:50.000Z" title="更新于 2023-02-26 14:45:50">2023-02-26</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%A4%8D%E4%B9%A0/">复习</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">2.1k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>6分钟</span></span><span class="post-meta-separator">|</span><span id="" data-flag-title="大三上离散数学期末复习提纲"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span class="waline-pageview-count" data-path="/2023/02/20/review/discrete-mathematics/"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="大三上离散数学期末复习提纲"><a href="#大三上离散数学期末复习提纲" class="headerlink" title="大三上离散数学期末复习提纲"></a>大三上离散数学期末复习提纲</h1><h2 id="命题逻辑"><a href="#命题逻辑" class="headerlink" title="命题逻辑"></a>命题逻辑</h2><h3 id="命题及其表示"><a href="#命题及其表示" class="headerlink" title="命题及其表示"></a>命题及其表示</h3><p><strong>具有唯一真值的陈述句称为命题</strong></p>
+<p>原子命题：没有联结词的命题</p>
+<p>复合命题：有联结词的命题</p>
+<p>命题通常使用大写字母<strong>P,Q,R</strong>等表示</p>
+<p>命题变元，命题常元</p>
+<p>命题常元如：<code>P:今天下雨</code></p>
+<h3 id="逻辑联结词"><a href="#逻辑联结词" class="headerlink" title="逻辑联结词"></a>逻辑联结词</h3><ol>
+<li><p>否定</p>
+<table>
+<thead>
+<tr>
+<th align="center">P</th>
+<th align="center">非P</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">0</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">1</td>
+<td align="center">0</td>
+</tr>
+</tbody></table>
+</li>
+<li><p>合取</p>
+<table>
+<thead>
+<tr>
+<th>P</th>
+<th>Q</th>
+<th>P ^ Q</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+</tbody></table>
+</li>
+<li><p>析取</p>
+<table>
+<thead>
+<tr>
+<th>P</th>
+<th>Q</th>
+<th>P v Q</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+</tbody></table>
+</li>
+<li><p>条件</p>
+<table>
+<thead>
+<tr>
+<th>P</th>
+<th>Q</th>
+<th>P -&gt; Q</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+</tbody></table>
+</li>
+<li><p>双条件</p>
+<table>
+<thead>
+<tr>
+<th>P</th>
+<th>Q</th>
+<th>P ^ Q</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+</tbody></table>
+</li>
+</ol>
+<h3 id="命题公式与符号化"><a href="#命题公式与符号化" class="headerlink" title="命题公式与符号化"></a>命题公式与符号化</h3><p>单个的命题变元也是命题公式</p>
+<p>命题符号化案例</p>
+<figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">张三和李四都是班干部</span><br><span class="line"></span><br><span class="line">设 P：张三是班干部，  Q：李四是班干部。</span><br><span class="line">则命题符号化为： P <span class="built_in">^</span> Q</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="真值表与等价公式"><a href="#真值表与等价公式" class="headerlink" title="真值表与等价公式"></a>真值表与等价公式</h3><p>一般，在含有n个命题变元的命题公式中，共有<code>2^n</code>种指派</p>
+<h3 id="蕴含式"><a href="#蕴含式" class="headerlink" title="蕴含式"></a>蕴含式</h3><h3 id="最小联结词组"><a href="#最小联结词组" class="headerlink" title="最小联结词组"></a>最小联结词组</h3><h3 id="范式"><a href="#范式" class="headerlink" title="范式"></a>范式</h3><h3 id="推理理论"><a href="#推理理论" class="headerlink" title="推理理论"></a>推理理论</h3><h2 id="谓词逻辑"><a href="#谓词逻辑" class="headerlink" title="谓词逻辑"></a>谓词逻辑</h2><h3 id="谓词的基本概念"><a href="#谓词的基本概念" class="headerlink" title="谓词的基本概念"></a>谓词的基本概念</h3><h3 id="谓词公式与翻译"><a href="#谓词公式与翻译" class="headerlink" title="谓词公式与翻译"></a>谓词公式与翻译</h3><h3 id="变元的约束"><a href="#变元的约束" class="headerlink" title="变元的约束"></a>变元的约束</h3><h3 id="谓词演算的等价式与蕴含式"><a href="#谓词演算的等价式与蕴含式" class="headerlink" title="谓词演算的等价式与蕴含式"></a>谓词演算的等价式与蕴含式</h3><h3 id="谓词公式的范式"><a href="#谓词公式的范式" class="headerlink" title="谓词公式的范式"></a>谓词公式的范式</h3><h3 id="谓词演算的推理理论"><a href="#谓词演算的推理理论" class="headerlink" title="谓词演算的推理理论"></a>谓词演算的推理理论</h3><h2 id="集合与关系"><a href="#集合与关系" class="headerlink" title="集合与关系"></a>集合与关系</h2><h3 id="集合的基本概念"><a href="#集合的基本概念" class="headerlink" title="集合的基本概念"></a>集合的基本概念</h3><h3 id="集合的运算"><a href="#集合的运算" class="headerlink" title="集合的运算"></a>集合的运算</h3><h3 id="序偶与笛卡尔积"><a href="#序偶与笛卡尔积" class="headerlink" title="序偶与笛卡尔积"></a>序偶与笛卡尔积</h3><h3 id="关系及其表示"><a href="#关系及其表示" class="headerlink" title="关系及其表示"></a>关系及其表示</h3><h3 id="关系的性质及其判定方法"><a href="#关系的性质及其判定方法" class="headerlink" title="关系的性质及其判定方法"></a>关系的性质及其判定方法</h3><h3 id="复合关系和逆运算"><a href="#复合关系和逆运算" class="headerlink" title="复合关系和逆运算"></a>复合关系和逆运算</h3><h3 id="关系的闭包运算"><a href="#关系的闭包运算" class="headerlink" title="关系的闭包运算"></a>关系的闭包运算</h3><h3 id="等价关系与相融关系"><a href="#等价关系与相融关系" class="headerlink" title="等价关系与相融关系"></a>等价关系与相融关系</h3><h3 id="偏序关系"><a href="#偏序关系" class="headerlink" title="偏序关系"></a>偏序关系</h3><h2 id="代数系统"><a href="#代数系统" class="headerlink" title="代数系统"></a>代数系统</h2><h3 id="代数系统的概念"><a href="#代数系统的概念" class="headerlink" title="代数系统的概念"></a>代数系统的概念</h3><h3 id="半群与含幺半群"><a href="#半群与含幺半群" class="headerlink" title="半群与含幺半群"></a>半群与含幺半群</h3><ul>
+<li>半群<ul>
+<li>运算是封闭的</li>
+<li>运算是可结合的</li>
+</ul>
+</li>
+<li>含幺半群<ul>
+<li>运算是可封闭的</li>
+<li>运算时可结合的</li>
+<li>含有幺元<code>e</code></li>
+</ul>
+</li>
+</ul>
+<h3 id="群与子群"><a href="#群与子群" class="headerlink" title="群与子群"></a>群与子群</h3><h4 id="群"><a href="#群" class="headerlink" title="群"></a>群</h4><p><strong>定义（四个条件）</strong></p>
+<ol>
+<li><p>运算是封闭的</p>
+</li>
+<li><p>运算是可结合的</p>
+</li>
+<li><p>含有幺元<code>e</code></p>
+</li>
+<li><p>每个成员都含有逆元（成员与逆元运算后的结果为幺元<code>e</code>）</p>
+</li>
+</ol>
+<h4 id="子群"><a href="#子群" class="headerlink" title="子群"></a>子群</h4><h3 id="几类特殊的群"><a href="#几类特殊的群" class="headerlink" title="几类特殊的群"></a>几类特殊的群</h3><ol>
+<li><p>交换群</p>
+<p>运算满足交换律</p>
+</li>
+<li><p>循环群</p>
+<p>群中存在一个元素a，使得群中任意元素都是a的幂</p>
+<p>任何一个循环群都是交换群</p>
+</li>
+</ol>
+<h3 id="代数系统的同态与同构"><a href="#代数系统的同态与同构" class="headerlink" title="代数系统的同态与同构"></a>代数系统的同态与同构</h3><h3 id="环与域"><a href="#环与域" class="headerlink" title="环与域"></a>环与域</h3><p>设X是非空集合，&lt;X,Δ，<code>*</code>&gt;是代数系统，Δ和<code>*</code>都是二元运算。如果：</p>
+<ol>
+<li><p>&lt;X,Δ&gt;是交换群</p>
+</li>
+<li><p>&lt;X,*&gt;是半群</p>
+</li>
+<li><p>运算*对于运算Δ是可分配的</p>
+<p>即<code>任意a,b,c ∈ Z，有 a * (b Δ c) = (a * b) Δ (a * c) 和 (b Δ c) * a = (a * b) Δ (c * a)</code></p>
+<p>则称<code>&lt;X,Δ,*&gt;</code>是环。在环<code>&lt;X,Δ,*&gt;</code>中，若运算<code>*</code>是可交换的，则称环<code>&lt;X,Δ,*&gt;</code>为交换环，否则称为非交换环。</p>
+</li>
+</ol>
+<h2 id="格与布尔代数"><a href="#格与布尔代数" class="headerlink" title="格与布尔代数"></a>格与布尔代数</h2><h3 id="格"><a href="#格" class="headerlink" title="格"></a>格</h3><p><strong>任意两个元素都有上、下确界，把具体这种性质的偏序集称为格</strong></p>
+<h2 id="图论初步"><a href="#图论初步" class="headerlink" title="图论初步"></a>图论初步</h2><h3 id="图的基本概念"><a href="#图的基本概念" class="headerlink" title="图的基本概念"></a>图的基本概念</h3><p>定义：一个图G是一个二元组<code>&lt;V,E&gt;</code>，简记<code>G = &lt;V,E&gt;</code>，其中V是一个<strong>非空</strong>的结点集合，E是边的集合</p>
+<p>有向边的关系序偶用<code>&lt;x,y&gt;</code>表示，无向边的关系序偶用<code>(x,y)</code>表示</p>
+<h5 id="名词概念"><a href="#名词概念" class="headerlink" title="名词概念"></a>名词概念</h5><ul>
+<li>孤立点：不与任何结点邻接的结点称为孤立点（就是只有一个点，没边）</li>
+<li>零图：全由孤立点构成的图（就是这个图就只有点，没有边）</li>
+<li>平凡图：一阶零图（即零图的一种特殊情况，只有一个点）</li>
+<li>有向图：每一条边都是有向边的图</li>
+<li>无向图：每一条边都是无向边的图</li>
+<li>混合图：既有有向边，又有无向边的图</li>
+<li>基础图：将有向图中的有向边的方向去掉，就得到一个无向图，则称得到的无向图为这个有向图的基础图</li>
+<li>度：结点所关联的边数称为度d(v)<ul>
+<li>如果无向图中有自回路则一个回路算2度</li>
+<li>出度：d+(v)，<code>+</code>是上标，有向图中分为出度和入度，有多少边出去则有多少出度</li>
+<li>入度：d-(v)，<code>-</code>是上标，有多少边进来则有多少入度</li>
+</ul>
+</li>
+<li>奇结点：度数为基数的结点</li>
+<li>偶结点：度数为偶数的结点</li>
+<li>子图：结点集合包含于原图结点集合，边的集合包含于原图边的集合</li>
+<li>生成子图：（支撑子图）结点集合等于原图结点集合，边的集合包含与原图边的集合</li>
+<li>导出子图：以图G的顶点集V的非空子集V1为顶点集，以两端点均在V1中的全体边为边集的G的子图，称为V1导出的导出子图</li>
+<li>完全图：（无向完全图）任意两个不同结点都是相邻接的，具有n个结点的完全图记作Kn（n为下标）</li>
+</ul>
+<h5 id="定理"><a href="#定理" class="headerlink" title="定理"></a>定理</h5><ol>
+<li>如果无向图有<strong>m</strong>条边，那么它的总度数为<strong>2m</strong>度</li>
+<li>无向图中奇结点的个数必须为<strong>偶数</strong>个</li>
+<li>有向图的<strong>总出度 &#x3D; 总入度 &#x3D; 边数</strong></li>
+<li><strong>最大度数 &lt;&#x3D; 结点数-1</strong></li>
+</ol>
+<h3 id="图的连通性"><a href="#图的连通性" class="headerlink" title="图的连通性"></a>图的连通性</h3><h5 id="路与回路"><a href="#路与回路" class="headerlink" title="路与回路"></a>路与回路</h5><p>路中边的数目n称为该路的长度</p>
+<p>若路的始点与终点相同，则称为回路</p>
+<p>如果路中所有边互不相同，则称为<strong>迹（或简单路）</strong>，若回路中的所有边互不相同，则称为<strong>简单回路</strong></p>
+<p>如果路中所有结点互不相同（当然所有边也互不相同），则称为<strong>初级路（或基本路）</strong>，如果为回路的话，则为<strong>初级回路（或圈或基本回路）</strong></p>
+<h3 id="图的矩阵表示"><a href="#图的矩阵表示" class="headerlink" title="图的矩阵表示"></a>图的矩阵表示</h3><h4 id="邻接矩阵"><a href="#邻接矩阵" class="headerlink" title="邻接矩阵"></a>邻接矩阵</h4><figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">设图D＝&lt;V，E&gt;，其中V＝｛v1,v2,v3,v4｝，E＝｛&lt;v¬1,v2&gt;, &lt;v¬2,v3&gt;, &lt;v¬2,v4&gt;, &lt;v3,v2&gt;, &lt;v¬3,v4&gt;, &lt;v¬3,v1&gt;, &lt;v4,v1&gt;｝</span><br><span class="line">邻接矩阵如下，表示结点到结点有多少条长度为1的路径，则可以使用邻接矩阵求出度序列与入度序列</span><br><span class="line"><span class="built_in">_</span><span class="built_in">_</span>            <span class="built_in">_</span><span class="built_in">_</span></span><br><span class="line">|  0  1  0  0  |</span><br><span class="line">|  0  0  1  1  |</span><br><span class="line">|  1  1  0  1  |</span><br><span class="line">|  1  0  0  0  |</span><br><span class="line"><span class="built_in">_</span><span class="built_in">_</span>            <span class="built_in">_</span><span class="built_in">_</span></span><br><span class="line">出度序列：1,2,3,1</span><br><span class="line">入度序列：2,2,1,2</span><br><span class="line">度序列：3,4,4,3</span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="可达性矩阵"><a href="#可达性矩阵" class="headerlink" title="可达性矩阵"></a>可达性矩阵</h4><p>首先求出n阶图的邻接矩阵，然后再求邻接矩阵的次方，如是m次方则代表结点到结点有多少条长度为m的路径，最多求到n次方就会循环</p>
+<p>此时将各个邻接矩阵的次方相加，如果元素不为0则变为1，得到的元素只有0,1的矩阵就是可达性矩阵，1表示可达，0表示不可达</p>
+<h3 id="欧拉图和哈密顿图"><a href="#欧拉图和哈密顿图" class="headerlink" title="欧拉图和哈密顿图"></a>欧拉图和哈密顿图</h3><h4 id="欧拉图"><a href="#欧拉图" class="headerlink" title="欧拉图"></a>欧拉图</h4><h5 id="名词概念-1"><a href="#名词概念-1" class="headerlink" title="名词概念"></a>名词概念</h5><ul>
+<li><p>欧拉路：每条边走一次的路</p>
+</li>
+<li><p>欧拉回路：每条边走一次并且回到原点的路</p>
+</li>
+</ul>
+<p>定义：<strong>具有欧拉回路的图称为欧拉图</strong></p>
+<h5 id="定理-1"><a href="#定理-1" class="headerlink" title="定理"></a><strong>定理</strong></h5><ol>
+<li>无向图G具有一条欧拉路当且仅当G是连通的并且有零个或2个奇结点</li>
+<li>一个无向图是欧拉图的充要条件是该图是<strong>连通的</strong>并且它的<strong>结点全是偶结点</strong></li>
+</ol>
+<h4 id="哈密顿图"><a href="#哈密顿图" class="headerlink" title="哈密顿图"></a>哈密顿图</h4><p>哈密顿路：把图中每个结点走一次且仅走一次的路</p>
+<p>哈密顿回路：把图中每个结点走一次且仅走一次能够回到出发结点的路</p>
+<p><strong>具有哈密顿回路的图称为哈密顿图</strong></p>
+<p><strong>n阶图（n&gt;&#x3D;3）中每一对不相邻的结点的度的和都&gt;&#x3D;n，则为哈密顿图</strong></p>
+<p><strong>n阶图（n&gt;&#x3D;3）中每一对结点的度的和都&gt;&#x3D;n-1，则存在一条哈密顿路，如果每一对结点的度的和&gt;&#x3D;n，则存在一条哈密顿回路</strong></p>
+<h3 id="树"><a href="#树" class="headerlink" title="树"></a>树</h3><p><strong>一个连通无回路的无向图称为无向树，简称树，记为T</strong></p>
+<p><strong>树中度数为1的结点称为树叶；度数大于1的结点称为分支点（内部结点）</strong></p>
+<p><code>m = n - 1</code>，树的 边数 等于 节点数-1</p>
+<h3 id="平面图与欧拉公式"><a href="#平面图与欧拉公式" class="headerlink" title="平面图与欧拉公式"></a>平面图与欧拉公式</h3><h4 id="欧拉公式"><a href="#欧拉公式" class="headerlink" title="欧拉公式"></a>欧拉公式</h4><p><strong>设G是一个连通平面图，则有</strong><code>n - m + r = 2</code>，其中<code>n,m,r</code>分别是图G的<strong>结点数、边数、面数</strong></p>
+<h3 id="二部图"><a href="#二部图" class="headerlink" title="二部图"></a>二部图</h3></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="https://makuning.github.io">InsectMk</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://makuning.github.io/2023/02/20/review/discrete-mathematics/">https://makuning.github.io/2023/02/20/review/discrete-mathematics/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://makuning.github.io" target="_blank">InsectMk's Blog</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/">离散数学</a><a class="post-meta__tags" href="/tags/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/">期末复习</a></div><div class="post_share"><div class="social-share" data-image="https://image.insectmk.cn/hexo-gitee-blog/article/_post/review/discrete-mathematics/cover.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2023/02/23/homework/english-nickcen-middle/" title="Nick大爷英语中级班作业"><img class="cover" src="https://image.insectmk.cn/hexo-gitee-blog/article/_post/homework/english-nickcen-middle/cover.png" onerror="onerror=null;src='/img/website/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Nick大爷英语中级班作业</div></div></a></div><div class="next-post pull-right"><a href="/2023/02/10/register/chatgpt/" title="大型语言模型ChatGPT使用教程"><img class="cover" src="https://image.insectmk.cn/hexo-gitee-blog/article/_post/register/chatgpt/cover.png" onerror="onerror=null;src='/img/website/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">大型语言模型ChatGPT使用教程</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/2023/02/27/review/software-construction/" title="大三上软件构造期末复习提纲"><img class="cover" src="https://image.insectmk.cn/hexo-gitee-blog/article/_post/review/software-construction/cover.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-02-27</div><div class="title">大三上软件构造期末复习提纲</div></div></a></div><div><a href="/2022/12/12/review/software-quality-assurance-and-testing/" title="软件质量保证与测试期末复习提纲"><img class="cover" src="https://image.insectmk.cn/hexo-gitee-blog/article/_post/review/software-quality-assurance-and-testing/cover.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-12-12</div><div class="title">软件质量保证与测试期末复习提纲</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="waline-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/head/little-boy.png" onerror="this.onerror=null;this.src='/img/website/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">InsectMk</div><div class="author-info__description">每天都要微笑</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">30</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">44</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">10</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/makuning"><i class="fab fa-github"></i><span>关注我</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://gitee.com/makuning" target="_blank" title="Gitee"><i class="iconfont icon-gitee"></i></a><a class="social-icon" href="https://qm.qq.com/cgi-bin/qm/qr?k=CJpzSP3DAGojly8kXY36Wi3rczvFFzuc&amp;noverify=0&amp;personal_qrcode_source=4" target="_blank" title="QQ移动端"><i class="fa fa-mobile"></i></a><a class="social-icon" href="tencent://AddContact/?fromId=45&amp;fromSubId=1&amp;subcmd=all&amp;uin=2514378105&amp;website=www.oicqzone.com" target="_blank" title="QQ桌面端"><i class="fa fa-desktop"></i></a><a class="social-icon" href="mailto:2514378105@qq.com" target="_blank" title="Email"><i class="fas fa-envelope-open-text"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content"><h4>编程小白前来报到！</h4><p>图床已经由Github转到腾讯云对象存储COS啦，国内访问速度嘎嘎快！</p><p>摆烂ing.....</p></div></div><div class="card-widget user-map" id="user-map"><div class="item-headline"><i class="iconfont icon-ziyuan25"></i><span>个人爱好</span></div><div class="item-content"><span>跑步</span><br /><span>骑自行车</span><br /><span>狂吃一顿！</span></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%A4%A7%E4%B8%89%E4%B8%8A%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0%E6%8F%90%E7%BA%B2"><span class="toc-number">1.</span> <span class="toc-text">大三上离散数学期末复习提纲</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%91%BD%E9%A2%98%E9%80%BB%E8%BE%91"><span class="toc-number">1.1.</span> <span class="toc-text">命题逻辑</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%91%BD%E9%A2%98%E5%8F%8A%E5%85%B6%E8%A1%A8%E7%A4%BA"><span class="toc-number">1.1.1.</span> <span class="toc-text">命题及其表示</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%80%BB%E8%BE%91%E8%81%94%E7%BB%93%E8%AF%8D"><span class="toc-number">1.1.2.</span> <span class="toc-text">逻辑联结词</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%91%BD%E9%A2%98%E5%85%AC%E5%BC%8F%E4%B8%8E%E7%AC%A6%E5%8F%B7%E5%8C%96"><span class="toc-number">1.1.3.</span> <span class="toc-text">命题公式与符号化</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%9C%9F%E5%80%BC%E8%A1%A8%E4%B8%8E%E7%AD%89%E4%BB%B7%E5%85%AC%E5%BC%8F"><span class="toc-number">1.1.4.</span> <span class="toc-text">真值表与等价公式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%95%B4%E5%90%AB%E5%BC%8F"><span class="toc-number">1.1.5.</span> <span class="toc-text">蕴含式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9C%80%E5%B0%8F%E8%81%94%E7%BB%93%E8%AF%8D%E7%BB%84"><span class="toc-number">1.1.6.</span> <span class="toc-text">最小联结词组</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%8C%83%E5%BC%8F"><span class="toc-number">1.1.7.</span> <span class="toc-text">范式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8E%A8%E7%90%86%E7%90%86%E8%AE%BA"><span class="toc-number">1.1.8.</span> <span class="toc-text">推理理论</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%B0%93%E8%AF%8D%E9%80%BB%E8%BE%91"><span class="toc-number">1.2.</span> <span class="toc-text">谓词逻辑</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%B0%93%E8%AF%8D%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5"><span class="toc-number">1.2.1.</span> <span class="toc-text">谓词的基本概念</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%B0%93%E8%AF%8D%E5%85%AC%E5%BC%8F%E4%B8%8E%E7%BF%BB%E8%AF%91"><span class="toc-number">1.2.2.</span> <span class="toc-text">谓词公式与翻译</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%98%E5%85%83%E7%9A%84%E7%BA%A6%E6%9D%9F"><span class="toc-number">1.2.3.</span> <span class="toc-text">变元的约束</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%B0%93%E8%AF%8D%E6%BC%94%E7%AE%97%E7%9A%84%E7%AD%89%E4%BB%B7%E5%BC%8F%E4%B8%8E%E8%95%B4%E5%90%AB%E5%BC%8F"><span class="toc-number">1.2.4.</span> <span class="toc-text">谓词演算的等价式与蕴含式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%B0%93%E8%AF%8D%E5%85%AC%E5%BC%8F%E7%9A%84%E8%8C%83%E5%BC%8F"><span class="toc-number">1.2.5.</span> <span class="toc-text">谓词公式的范式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%B0%93%E8%AF%8D%E6%BC%94%E7%AE%97%E7%9A%84%E6%8E%A8%E7%90%86%E7%90%86%E8%AE%BA"><span class="toc-number">1.2.6.</span> <span class="toc-text">谓词演算的推理理论</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%9B%86%E5%90%88%E4%B8%8E%E5%85%B3%E7%B3%BB"><span class="toc-number">1.3.</span> <span class="toc-text">集合与关系</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%9B%86%E5%90%88%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5"><span class="toc-number">1.3.1.</span> <span class="toc-text">集合的基本概念</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%9B%86%E5%90%88%E7%9A%84%E8%BF%90%E7%AE%97"><span class="toc-number">1.3.2.</span> <span class="toc-text">集合的运算</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BA%8F%E5%81%B6%E4%B8%8E%E7%AC%9B%E5%8D%A1%E5%B0%94%E7%A7%AF"><span class="toc-number">1.3.3.</span> <span class="toc-text">序偶与笛卡尔积</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%B3%E7%B3%BB%E5%8F%8A%E5%85%B6%E8%A1%A8%E7%A4%BA"><span class="toc-number">1.3.4.</span> <span class="toc-text">关系及其表示</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%B3%E7%B3%BB%E7%9A%84%E6%80%A7%E8%B4%A8%E5%8F%8A%E5%85%B6%E5%88%A4%E5%AE%9A%E6%96%B9%E6%B3%95"><span class="toc-number">1.3.5.</span> <span class="toc-text">关系的性质及其判定方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A4%8D%E5%90%88%E5%85%B3%E7%B3%BB%E5%92%8C%E9%80%86%E8%BF%90%E7%AE%97"><span class="toc-number">1.3.6.</span> <span class="toc-text">复合关系和逆运算</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%B3%E7%B3%BB%E7%9A%84%E9%97%AD%E5%8C%85%E8%BF%90%E7%AE%97"><span class="toc-number">1.3.7.</span> <span class="toc-text">关系的闭包运算</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AD%89%E4%BB%B7%E5%85%B3%E7%B3%BB%E4%B8%8E%E7%9B%B8%E8%9E%8D%E5%85%B3%E7%B3%BB"><span class="toc-number">1.3.8.</span> <span class="toc-text">等价关系与相融关系</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%81%8F%E5%BA%8F%E5%85%B3%E7%B3%BB"><span class="toc-number">1.3.9.</span> <span class="toc-text">偏序关系</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%A3%E6%95%B0%E7%B3%BB%E7%BB%9F"><span class="toc-number">1.4.</span> <span class="toc-text">代数系统</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%A3%E6%95%B0%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%A6%82%E5%BF%B5"><span class="toc-number">1.4.1.</span> <span class="toc-text">代数系统的概念</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8D%8A%E7%BE%A4%E4%B8%8E%E5%90%AB%E5%B9%BA%E5%8D%8A%E7%BE%A4"><span class="toc-number">1.4.2.</span> <span class="toc-text">半群与含幺半群</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BE%A4%E4%B8%8E%E5%AD%90%E7%BE%A4"><span class="toc-number">1.4.3.</span> <span class="toc-text">群与子群</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%BE%A4"><span class="toc-number">1.4.3.1.</span> <span class="toc-text">群</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AD%90%E7%BE%A4"><span class="toc-number">1.4.3.2.</span> <span class="toc-text">子群</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%87%A0%E7%B1%BB%E7%89%B9%E6%AE%8A%E7%9A%84%E7%BE%A4"><span class="toc-number">1.4.4.</span> <span class="toc-text">几类特殊的群</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%A3%E6%95%B0%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%90%8C%E6%80%81%E4%B8%8E%E5%90%8C%E6%9E%84"><span class="toc-number">1.4.5.</span> <span class="toc-text">代数系统的同态与同构</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%8E%AF%E4%B8%8E%E5%9F%9F"><span class="toc-number">1.4.6.</span> <span class="toc-text">环与域</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A0%BC%E4%B8%8E%E5%B8%83%E5%B0%94%E4%BB%A3%E6%95%B0"><span class="toc-number">1.5.</span> <span class="toc-text">格与布尔代数</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A0%BC"><span class="toc-number">1.5.1.</span> <span class="toc-text">格</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%BE%E8%AE%BA%E5%88%9D%E6%AD%A5"><span class="toc-number">1.6.</span> <span class="toc-text">图论初步</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9B%BE%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5"><span class="toc-number">1.6.1.</span> <span class="toc-text">图的基本概念</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%90%8D%E8%AF%8D%E6%A6%82%E5%BF%B5"><span class="toc-number">1.6.1.0.1.</span> <span class="toc-text">名词概念</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%AE%9A%E7%90%86"><span class="toc-number">1.6.1.0.2.</span> <span class="toc-text">定理</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9B%BE%E7%9A%84%E8%BF%9E%E9%80%9A%E6%80%A7"><span class="toc-number">1.6.2.</span> <span class="toc-text">图的连通性</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E8%B7%AF%E4%B8%8E%E5%9B%9E%E8%B7%AF"><span class="toc-number">1.6.2.0.1.</span> <span class="toc-text">路与回路</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9B%BE%E7%9A%84%E7%9F%A9%E9%98%B5%E8%A1%A8%E7%A4%BA"><span class="toc-number">1.6.3.</span> <span class="toc-text">图的矩阵表示</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%82%BB%E6%8E%A5%E7%9F%A9%E9%98%B5"><span class="toc-number">1.6.3.1.</span> <span class="toc-text">邻接矩阵</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8F%AF%E8%BE%BE%E6%80%A7%E7%9F%A9%E9%98%B5"><span class="toc-number">1.6.3.2.</span> <span class="toc-text">可达性矩阵</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%AC%A7%E6%8B%89%E5%9B%BE%E5%92%8C%E5%93%88%E5%AF%86%E9%A1%BF%E5%9B%BE"><span class="toc-number">1.6.4.</span> <span class="toc-text">欧拉图和哈密顿图</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%AC%A7%E6%8B%89%E5%9B%BE"><span class="toc-number">1.6.4.1.</span> <span class="toc-text">欧拉图</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%90%8D%E8%AF%8D%E6%A6%82%E5%BF%B5-1"><span class="toc-number">1.6.4.1.1.</span> <span class="toc-text">名词概念</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%AE%9A%E7%90%86-1"><span class="toc-number">1.6.4.1.2.</span> <span class="toc-text">定理</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%93%88%E5%AF%86%E9%A1%BF%E5%9B%BE"><span class="toc-number">1.6.4.2.</span> <span class="toc-text">哈密顿图</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A0%91"><span class="toc-number">1.6.5.</span> <span class="toc-text">树</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B9%B3%E9%9D%A2%E5%9B%BE%E4%B8%8E%E6%AC%A7%E6%8B%89%E5%85%AC%E5%BC%8F"><span class="toc-number">1.6.6.</span> <span class="toc-text">平面图与欧拉公式</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%AC%A7%E6%8B%89%E5%85%AC%E5%BC%8F"><span class="toc-number">1.6.6.1.</span> <span class="toc-text">欧拉公式</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%8C%E9%83%A8%E5%9B%BE"><span class="toc-number">1.6.7.</span> <span class="toc-text">二部图</span></a></li></ol></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2023/06/09/practical/website/" title="平时在用的网址"><img src="/img/website/cover-article-default.png" onerror="this.onerror=null;this.src='/img/website/404.jpg'" alt="平时在用的网址"/></a><div class="content"><a class="title" href="/2023/06/09/practical/website/" title="平时在用的网址">平时在用的网址</a><time datetime="2023-06-09T01:24:46.000Z" title="更新于 2023-06-09 09:24:46">2023-06-09</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/11/04/summary/hello-world/" title="Hexo建站感言"><img src="https://image.insectmk.cn/hexo-gitee-blog/article/_post/summary/hello-world/cover.jpg" onerror="this.onerror=null;this.src='/img/website/404.jpg'" alt="Hexo建站感言"/></a><div class="content"><a class="title" href="/2022/11/04/summary/hello-world/" title="Hexo建站感言">Hexo建站感言</a><time datetime="2023-05-11T05:16:22.000Z" title="更新于 2023-05-11 13:16:22">2023-05-11</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/03/17/knowledge/data-structure/" title="数据结构"><img src="https://image.insectmk.cn/hexo-gitee-blog/article/_post/knowledge/data-structure/cover.jpg" onerror="this.onerror=null;this.src='/img/website/404.jpg'" alt="数据结构"/></a><div class="content"><a class="title" href="/2023/03/17/knowledge/data-structure/" title="数据结构">数据结构</a><time datetime="2023-04-06T15:17:24.000Z" title="更新于 2023-04-06 23:17:24">2023-04-06</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/02/27/review/software-construction/" title="大三上软件构造期末复习提纲"><img src="https://image.insectmk.cn/hexo-gitee-blog/article/_post/review/software-construction/cover.jpg" onerror="this.onerror=null;this.src='/img/website/404.jpg'" alt="大三上软件构造期末复习提纲"/></a><div class="content"><a class="title" href="/2023/02/27/review/software-construction/" title="大三上软件构造期末复习提纲">大三上软件构造期末复习提纲</a><time datetime="2023-02-27T07:14:25.000Z" title="更新于 2023-02-27 15:14:25">2023-02-27</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/12/12/review/software-quality-assurance-and-testing/" title="软件质量保证与测试期末复习提纲"><img src="https://image.insectmk.cn/hexo-gitee-blog/article/_post/review/software-quality-assurance-and-testing/cover.png" onerror="this.onerror=null;this.src='/img/website/404.jpg'" alt="软件质量保证与测试期末复习提纲"/></a><div class="content"><a class="title" href="/2022/12/12/review/software-quality-assurance-and-testing/" title="软件质量保证与测试期末复习提纲">软件质量保证与测试期末复习提纲</a><time datetime="2023-02-26T13:38:08.000Z" title="更新于 2023-02-26 21:38:08">2023-02-26</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2022 - 2023 By InsectMk</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text"><a target="_blank" rel="noopener" href="https://beian.miit.gov.cn/#/Integrated/index"><img class="icp-icon" src="/img/website/icp.png"><span>备案号：蜀ICP备2023013851号-1</span></a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"><script>function loadWaline () {
+  function initWaline () {
+    const waline = Waline.init(Object.assign({
+      el: '#waline-wrap',
+      serverURL: 'https://hexo-blog-waline-leancloud-vercel.insectmk.cn/',
+      pageview: true,
+      dark: 'html[data-theme="dark"]',
+      path: window.location.pathname,
+      comment: false,
+    }, null))
+  }
+
+  const walineCSSLoad = document.getElementById('waline-css')
+
+  if (typeof Waline === 'object') {
+    walineCSSLoad ? initWaline() : getCSS('https://cdn.jsdelivr.net/npm/@waline/client/dist/waline.min.css','waline-css').then(initWaline)
+  }
+  else {
+    getCSS('https://cdn.jsdelivr.net/npm/@waline/client/dist/waline.min.css','waline-css').then(() => {
+      getScript('https://cdn.jsdelivr.net/npm/@waline/client/dist/waline.min.js').then(initWaline)
+    })
+  }
+}
+
+if ('Waline' === 'Waline' || !false) {
+  if (false) btf.loadComment(document.getElementById('waline-wrap'),loadWaline)
+  else setTimeout(loadWaline, 0)
+} else {
+  function loadOtherComment () {
+    loadWaline()
+  }
+}</script></div><script id="canvas_nest" defer="defer" color="0,0,255" opacity="0.7" zIndex="-1" count="99" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-nest.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+POWERMODE.mobile = true;
+document.body.addEventListener('input', POWERMODE);
+</script><script id="click-show-text" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/click-show-text.min.js" data-mobile="true" data-text="加油！,努力！,你一定可以的！" data-fontsize="15px" data-random="true" async="async"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div class="no-result" id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div></body></html>
