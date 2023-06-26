@@ -1,0 +1,479 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>面向对象 | InsectMk's Blog</title><meta name="author" content="InsectMk"><meta name="copyright" content="InsectMk"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="面向对象概念 现实生活： ​	类：抽象的概念，把具有相同特征和操作的事物归为一类 ​	先有实体，再有类的概念 代码世界： ​	类：抽象的概念，把具有相同属性和方法的对象归为一类 ​	编写顺序：先有类，再创建对象 ​	类的作用：类相当于一个模板，刻画出具有相同属性和方法的对象  类  类中只有属性和方法 属性也叫做全局变量，属性分为成员变量和静态变量 方法分为成员方法和静态方法   12345678">
+<meta property="og:type" content="article">
+<meta property="og:title" content="面向对象">
+<meta property="og:url" content="https://insectmk.cn/2023/06/26/education/qianfeng/day10-2/index.html">
+<meta property="og:site_name" content="InsectMk&#39;s Blog">
+<meta property="og:description" content="面向对象概念 现实生活： ​	类：抽象的概念，把具有相同特征和操作的事物归为一类 ​	先有实体，再有类的概念 代码世界： ​	类：抽象的概念，把具有相同属性和方法的对象归为一类 ​	编写顺序：先有类，再创建对象 ​	类的作用：类相当于一个模板，刻画出具有相同属性和方法的对象  类  类中只有属性和方法 属性也叫做全局变量，属性分为成员变量和静态变量 方法分为成员方法和静态方法   12345678">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://image.insectmk.cn/hexo-gitee-blog/cover/default/20230610-26.jpg">
+<meta property="article:published_time" content="2023-06-26T12:24:46.000Z">
+<meta property="article:modified_time" content="2023-06-26T12:24:46.000Z">
+<meta property="article:author" content="InsectMk">
+<meta property="article:tag" content="Java">
+<meta property="article:tag" content="前锋教育">
+<meta property="article:tag" content="培训">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://image.insectmk.cn/hexo-gitee-blog/cover/default/20230610-26.jpg"><link rel="shortcut icon" href="/img/website/favicon.jpg"><link rel="canonical" href="https://insectmk.cn/2023/06/26/education/qianfeng/day10-2/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '面向对象',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2023-06-26 20:24:46'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="//at.alicdn.com/t/c/font_3795172_qd9o0tbkbqi.css"><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/head/little-boy.png" onerror="onerror=null;src='/img/website/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">60</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">46</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">11</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-graduation-cap"></i><span> 博文</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fa fa-archive"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fa fa-folder-open"></i><span> 归档</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/messageboard/"><i class="fa-fw fa fa-paper-plane"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw iconfont icon-xiuxiankafeiyule"></i><span> 生活</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/gallery/"><i class="fa-fw iconfont icon-tuku"></i><span> 图库</span></a></li><li><a class="site-page child" href="/books/"><i class="fa-fw iconfont icon-weibiaoti--"></i><span> 阅读</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw iconfont icon-dianying"></i><span> 电影</span></a></li><li><a class="site-page child" href="/games/"><i class="fa-fw iconfont icon-youxi"></i><span> 游戏</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw iconfont icon-qitacaidan"></i><span> 其他</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/test/"><i class="fa-fw iconfont icon-shiyanshi"></i><span> 实验</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-id-card"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://image.insectmk.cn/hexo-gitee-blog/cover/default/20230610-26.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="InsectMk's Blog"><span class="site-name">InsectMk's Blog</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-graduation-cap"></i><span> 博文</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fa fa-archive"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fa fa-folder-open"></i><span> 归档</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/messageboard/"><i class="fa-fw fa fa-paper-plane"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw iconfont icon-xiuxiankafeiyule"></i><span> 生活</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/gallery/"><i class="fa-fw iconfont icon-tuku"></i><span> 图库</span></a></li><li><a class="site-page child" href="/books/"><i class="fa-fw iconfont icon-weibiaoti--"></i><span> 阅读</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw iconfont icon-dianying"></i><span> 电影</span></a></li><li><a class="site-page child" href="/games/"><i class="fa-fw iconfont icon-youxi"></i><span> 游戏</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw iconfont icon-qitacaidan"></i><span> 其他</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/test/"><i class="fa-fw iconfont icon-shiyanshi"></i><span> 实验</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-id-card"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">面向对象</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-06-26T12:24:46.000Z" title="发表于 2023-06-26 20:24:46">2023-06-26</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-06-26T12:24:46.000Z" title="更新于 2023-06-26 20:24:46">2023-06-26</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%95%99%E8%82%B2/">教育</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">2.5k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>7分钟</span></span><span class="post-meta-separator">|</span><span id="" data-flag-title="面向对象"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span class="waline-pageview-count" data-path="/2023/06/26/education/qianfeng/day10-2/"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="面向对象"><a href="#面向对象" class="headerlink" title="面向对象"></a>面向对象</h1><h2 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h2><blockquote>
+<p>现实生活：</p>
+<p>​	类：抽象的概念，把具有相同特征和操作的事物归为一类</p>
+<p>​	先有实体，再有类的概念</p>
+<p>代码世界：</p>
+<p>​	类：抽象的概念，把具有相同属性和方法的对象归为一类</p>
+<p>​	编写顺序：先有类，再创建对象</p>
+<p>​	类的作用：类相当于一个模板，刻画出具有相同属性和方法的对象</p>
+</blockquote>
+<h2 id="类"><a href="#类" class="headerlink" title="类"></a>类</h2><blockquote>
+<ol>
+<li>类中只有属性和方法</li>
+<li>属性也叫做全局变量，属性分为成员变量和静态变量</li>
+<li>方法分为成员方法和静态方法</li>
+</ol>
+</blockquote>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> class 类名&#123;</span><br><span class="line">    <span class="comment">//属性也叫做全局变量，分为成员变量和静态变量</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment">//成员变量</span></span><br><span class="line">    数据类型 变量名;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">//静态变量</span></span><br><span class="line">    <span class="keyword">static</span> 数据类型 变量名;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">//方法分为成员方法和静态方法</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment">//成员方法</span></span><br><span class="line">    访问修饰符 返回值类型 方法名([参数])&#123;&#125;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">//静态方法</span></span><br><span class="line">    访问修饰符 <span class="keyword">static</span> 返回值类型 方法名([参数])&#123;&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="对象"><a href="#对象" class="headerlink" title="对象"></a>对象</h2><blockquote>
+<p>创建对象的语法：类名 对象名 &#x3D; new 类名();</p>
+<p>​	new 构造方法; 属于对象，就在堆内存中开辟空间</p>
+<p>​	类名 对象名 ：对象名属于引用，存的是对象在堆内存中的地址</p>
+<p>操作对象：</p>
+<ol>
+<li><p>设置成员属性</p>
+<ol start="2">
+<li>获取成员属性</li>
+<li>调用成员方法</li>
+</ol>
+</li>
+</ol>
+</blockquote>
+<h2 id="成员属性-x2F-成员变量"><a href="#成员属性-x2F-成员变量" class="headerlink" title="成员属性&#x2F;成员变量"></a>成员属性&#x2F;成员变量</h2><blockquote>
+<p>语法结构：数据类型 变量名;</p>
+<p>编写的位置：类里，方法的外面</p>
+</blockquote>
+<blockquote>
+<p>成员变量 vs 局部变量</p>
+<p>成员变量：类里，方法的外面的变量，并且系统会赋默认值，作用在整个类中</p>
+<p>局部变量：方法内的变量，系统不会赋默认值，作用在方法中</p>
+</blockquote>
+<h2 id="成员方法"><a href="#成员方法" class="headerlink" title="成员方法"></a>成员方法</h2><blockquote>
+<p>语法结构：访问修饰符 返回值类型 方法名([参数]){}</p>
+<p>编写的位置：类里</p>
+</blockquote>
+<blockquote>
+<p>成员方法 vs 静态方法</p>
+<p>成员方法：属于对象的方法，必须使用对象调用</p>
+<p>静态方法：属于类的方法，使用类名调用</p>
+</blockquote>
+<h2 id="构造方法"><a href="#构造方法" class="headerlink" title="构造方法"></a>构造方法</h2><blockquote>
+<p>含义：和new一起是创建对象的功能</p>
+<p>特点：</p>
+<ol>
+<li><p>与类名相同的方法</p>
+<ol start="2">
+<li>没有返回项</li>
+</ol>
+</li>
+</ol>
+<p>注意：</p>
+<pre><code>1. 当类中没有写构造方法时，系统会默认添加无参构造（无参数的构造方法）
+2. 构造方法可以重载的
+</code></pre>
+<p>有参构造好处：创建对象时，把数据赋值给该对象</p>
+</blockquote>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Person</span>&#123;</span><br><span class="line">    <span class="comment">//注意：这种不是构造方法，是成员方法</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">Person</span><span class="params">()</span>&#123;&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="private-私有化"><a href="#private-私有化" class="headerlink" title="private - 私有化"></a>private - 私有化</h2><blockquote>
+<p>含义：私有化</p>
+<p>作用：</p>
+<p>​	1. 修饰属性：私有化属性，不能让外界使用</p>
+<pre><code> 2. 修饰方法：私有化方法，不能让外界使用
+</code></pre>
+<p>应用场景：不让让外界访问的属性和方法就用private修饰</p>
+</blockquote>
+<h2 id="封装"><a href="#封装" class="headerlink" title="封装"></a>封装</h2><blockquote>
+<p>步骤：</p>
+<ol>
+<li><p>私有化属性</p>
+<ol start="2">
+<li>添加get（获取）&#x2F;set（设置）方法</li>
+</ol>
+</li>
+</ol>
+<p>好处：外界不可以直接操作属性，必须通过get、set方法操作，可以在get、set方法中做额外的功能</p>
+</blockquote>
+<h2 id="this-本对象"><a href="#this-本对象" class="headerlink" title="this - 本对象"></a>this - 本对象</h2><blockquote>
+<p>含义：代表本对象，this出现方法里，表示调用该方法的对象</p>
+<p>作用：</p>
+<ol>
+<li><p>this.属性：调用本对象的成员变量</p>
+<ol start="2">
+<li>this.方法：调用本对象的成员方法</li>
+<li>this()：调用本对象的构造方法（在一个构造方法中的第一句调用另外一个构造方法）</li>
+</ol>
+</li>
+</ol>
+</blockquote>
+<h2 id="分包"><a href="#分包" class="headerlink" title="分包"></a>分包</h2><blockquote>
+<p>基本作用：防止了类的重名问题</p>
+<p>项目作用：项目中有众多的类，把相同功能的类放在同一个包中，方便管理</p>
+<p>工具类：com.dream.util&#x2F;tool</p>
+<p>实体类：com.dream.vo&#x2F;bean&#x2F;entity&#x2F;bto&#x2F;pojo</p>
+<p>数据库类：com.dream.dao&#x2F;mapper</p>
+</blockquote>
+<h2 id="static-静态的"><a href="#static-静态的" class="headerlink" title="static - 静态的"></a>static - 静态的</h2><blockquote>
+<p>作用：</p>
+<ol>
+<li>修饰属性</li>
+</ol>
+<p> ​	类加载到方法区时，JVM会扫描该类的所有属性<br> ​	并把静态属性加载到静态区中，静态属性属于类属性，<br> ​	该类所有的对象都共享该属性<br> ​	静态属性直到项目结束时才会被回收</p>
+<p> ​	注意：静态属性使用类名调用</p>
+<ol start="2">
+<li><p>修饰方法</p>
+<p>属于类方法，直接用类名调用</p>
+<p>应用场景：工具类</p>
+</li>
+<li><p>静态代码块</p>
+<p>静态代码块是类加载到方法区时才会被调用，该代码块只能初始化静态变量</p>
+<p>代码块是创建对象时优先于构造方法调用，该代码块可以初始化成员变量和静态变量</p>
+<p>构造方法是创建对象时调用，该方法可以初始化成员变量和静态变量</p>
+</li>
+</ol>
+</blockquote>
+<blockquote>
+<p>成员变量 vs 静态变量</p>
+<p>成员变量：属于对象的变量，每个对象独享一份</p>
+<p>静态变量：属于类的变量，每个对象都共享一份</p>
+</blockquote>
+<h2 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h2><blockquote>
+<p>使用场景：多个类似的类，有相同的属性和方法，就可以把相同属性和方法抽取到父类</p>
+<p>好处：减少了代码的冗余</p>
+</blockquote>
+<blockquote>
+<p>深入继承：</p>
+<p>创建子类对象，会不会调用父类构造方法？<br>        会<br> 创建子类对象，会不会创建父类对象？<br>        不会<br>创建子类对象，为什么会调用父类构造方法？<br>        目的是将父类的属性存放在子类对象中</p>
+<p>创建子类对象，先调用父类构造方法还是子类构造方法？<br>        先调用子类构造方法</p>
+<p>创建子类对象，先完成父类构造方法还是子类构造方法？<br>        先完成父类构造方法</p>
+<p>子类可以继承父类私有化的属性和方法吗？</p>
+<p>​		可以，但是只能间接调用</p>
+</blockquote>
+<h2 id="super-父类"><a href="#super-父类" class="headerlink" title="super - 父类"></a>super - 父类</h2><blockquote>
+<p>含义：代表父类</p>
+<p>作用 在子类中：</p>
+<ol>
+<li><p>super.属性：调用父类非私有化的成员变量</p>
+<pre><code>2. super.方法：调用父类非私有化的成员方法
+3. super()：调用父类非私有化的构造方法
+</code></pre>
+</li>
+</ol>
+</blockquote>
+<h2 id="重写"><a href="#重写" class="headerlink" title="重写"></a>重写</h2><blockquote>
+<p>含义：重写也叫做复写，将父类中方法在子类中重新编写一遍</p>
+<p>应用场景：父类方法不满足子类需求时，子类就可以重复父类的方法</p>
+<p>条件：</p>
+<ol>
+<li>在子类中重写父类的方法</li>
+<li>返回值、方法名和参数列表必须和父类重写的方法一致</li>
+<li>访问修饰符不能比父类重写的方法更严格</li>
+</ol>
+</blockquote>
+<h2 id="访问修饰符"><a href="#访问修饰符" class="headerlink" title="访问修饰符"></a>访问修饰符</h2><blockquote>
+<p>含义：修饰类、方法、属性，定义使用的范围</p>
+<p>学习：做实验</p>
+<table>
+<thead>
+<tr>
+<th>访问修饰符</th>
+<th>本类</th>
+<th>本包</th>
+<th>其他包子类</th>
+<th>其他包</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>private</td>
+<td>OK</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>默认的</td>
+<td>OK</td>
+<td>OK</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>protected</td>
+<td>OK</td>
+<td>OK</td>
+<td>OK</td>
+<td></td>
+</tr>
+<tr>
+<td>public</td>
+<td>Ok</td>
+<td>OK</td>
+<td>OK</td>
+<td>Ok</td>
+</tr>
+</tbody></table>
+</blockquote>
+<h2 id="Object"><a href="#Object" class="headerlink" title="Object"></a>Object</h2><blockquote>
+<p>含义：基类也叫做超类，Object是所有类的祖先类</p>
+<p>注意：如果一个类没有明确继承的父类，默认继承Object</p>
+<p>equals：比较两个对象内存地址是否相同</p>
+<p>hashCode：获取对象的hash值</p>
+<p>getClass：获取类的字节码文件对象</p>
+<p>toString：获取对象的字符串表示</p>
+</blockquote>
+<blockquote>
+<p>标杆作用：Object作为所有类的父类，定义了几个方法，方便子类去重写</p>
+<p>equals的标杆作用：比较两个对象是否相同，不同的对象比较规则不一样，所以子类重写即可</p>
+<p>toString的标杆作用：每个子类都有不同的属性，重写toString直接打印该对象中所有的属性，方便观察数据</p>
+</blockquote>
+<h2 id="final"><a href="#final" class="headerlink" title="final"></a>final</h2><blockquote>
+<p>含义：最终</p>
+<p>作用：</p>
+<ol>
+<li><p>修饰类：该类不能被继承</p>
+</li>
+<li><p>修饰方法：该方法不能被重写</p>
+</li>
+<li><p>修饰变量：变成常量，不能重新赋值</p>
+<p>​		常量的命名规则：全大写，单词之间用下划线隔开</p>
+<p>​		常量的生命周期：存在常量池中，直到项目结束才会被销毁</p>
+</li>
+</ol>
+</blockquote>
+<h2 id="抽象类及抽象方法"><a href="#抽象类及抽象方法" class="headerlink" title="抽象类及抽象方法"></a>抽象类及抽象方法</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//抽象类</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">abstract</span> class 类名&#123;</span><br><span class="line">    <span class="comment">//抽象方法</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keyword">void</span> <span class="title function_">method</span><span class="params">()</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>抽象方法交给非抽象的子类去实现(重写)</p>
+<p>应用场景：当一个方法必须在父类中出现，但是这个方法又不好实现，就把该方法变成抽象方法，交给非抽象的子类去实现</p>
+</blockquote>
+<blockquote>
+<p>面试题：<br>1.抽象类不能有构造方法？</p>
+<p>抽象类可以有构造方法</p>
+<p>2.抽象类中只能有抽象方法？</p>
+<p>抽象类中有非抽象方法（成员方法和静态方法）</p>
+<p>3.抽象类中不可以没有抽象方法？</p>
+<p>抽象类中可以没有抽象方法，但是毫无意义</p>
+<p>4.如果父类是抽象类，则子类必须实现父类的抽象方法？</p>
+<p>不一定，子类如果是抽象类，可以不实现父类的抽象方法</p>
+<p>5.可以使用new关键字来创建抽象类对象？</p>
+<p>不可以，创建的是匿名内部类的对象</p>
+</blockquote>
+<h2 id="接口"><a href="#接口" class="headerlink" title="接口"></a>接口</h2><blockquote>
+<p>含义：特殊的抽象类</p>
+<p>注意：</p>
+<ol>
+<li>JDK1.7时，接口中只能有静态常量和抽象方法</li>
+<li>JDK1.8开始，接口中添加了静态方法和默认方法</li>
+</ol>
+<p>应用场景：接口更像一个规范</p>
+</blockquote>
+<blockquote>
+<p>抽象类 vs 接口</p>
+<p>抽象类：成员变量、静态变量、静态常量、成员方法、静态方法</p>
+<p>接口：静态常量、静态方法(JDK1.8)、默认方法(JDK1.8)</p>
+</blockquote>
+<blockquote>
+<p>面试题：</p>
+<p>1.一个类可以实现多个接口？可以</p>
+<p>2.一个接口可以实现多个接口？不可以，接口与接口的关系是多继承</p>
+<p>3.接口里面的方法不一定都是抽象的？JDK1.7时接口里只能有抽象方法，JDK1.8时接口可以有抽象方法和默认方法</p>
+<p>4.接口解决了类的单继承问题？是的，因为类与类是单继承，类与接口是多实现</p>
+<p>5.一个类是否可以继承一个类并同时实现多个接口？可以</p>
+<p>6.接口可以new对象？接口是特殊的抽象类，但是本质还是抽象类，抽象类是不可以new对象的，接口也是不能new对象，new出来的匿名类内部类的对象</p>
+</blockquote>
+<blockquote>
+<p>类 - 接口的关系：<br>        类 - 类：单继承<br>        类 - 接口：多实现<br>        接口 - 接口：多继承</p>
+</blockquote>
+<h2 id="多态"><a href="#多态" class="headerlink" title="多态"></a>多态</h2><h2 id="对象转型"><a href="#对象转型" class="headerlink" title="对象转型"></a>对象转型</h2><h2 id="内部类"><a href="#内部类" class="headerlink" title="内部类"></a>内部类</h2></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="insectmk.cn">InsectMk</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://insectmk.cn/2023/06/26/education/qianfeng/day10-2/">https://insectmk.cn/2023/06/26/education/qianfeng/day10-2/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://insectmk.cn" target="_blank">InsectMk's Blog</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Java/">Java</a><a class="post-meta__tags" href="/tags/%E5%89%8D%E9%94%8B%E6%95%99%E8%82%B2/">前锋教育</a><a class="post-meta__tags" href="/tags/%E5%9F%B9%E8%AE%AD/">培训</a></div><div class="post_share"><div class="social-share" data-image="https://image.insectmk.cn/hexo-gitee-blog/cover/default/20230610-26.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2023/06/26/education/qianfeng/day10-1/" title="回顾"><img class="cover" src="https://image.insectmk.cn/hexo-gitee-blog/cover/default/20230610-25.jpg" onerror="onerror=null;src='/img/website/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">回顾</div></div></a></div><div class="next-post pull-right"><a href="/2023/06/26/education/qianfeng/day20-2/" title="Iterator底层源码"><img class="cover" src="https://image.insectmk.cn/hexo-gitee-blog/cover/default/20230610-7.jpg" onerror="onerror=null;src='/img/website/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Iterator底层源码</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/2023/06/26/education/qianfeng/day01/" title="前锋JavaDay01"><img class="cover" src="https://image.insectmk.cn/hexo-gitee-blog/cover/default/20230610-1.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-06-26</div><div class="title">前锋JavaDay01</div></div></a></div><div><a href="/2023/06/26/education/qianfeng/day02-1/" title="动&#x2F;静态语言、强&#x2F;弱类型语言、编译型&#x2F;解释形语言的区别"><img class="cover" src="https://image.insectmk.cn/hexo-gitee-blog/cover/default/20230610-3.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-06-26</div><div class="title">动&#x2F;静态语言、强&#x2F;弱类型语言、编译型&#x2F;解释形语言的区别</div></div></a></div><div><a href="/2023/06/26/education/qianfeng/day02-2/" title="主方法的构造"><img class="cover" src="https://image.insectmk.cn/hexo-gitee-blog/cover/default/20230610-12.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-06-26</div><div class="title">主方法的构造</div></div></a></div><div><a href="/2023/06/26/education/qianfeng/day02/" title="前锋JavaDay02"><img class="cover" src="https://image.insectmk.cn/hexo-gitee-blog/cover/default/20230610-16.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-06-26</div><div class="title">前锋JavaDay02</div></div></a></div><div><a href="/2023/06/26/education/qianfeng/day04/" title="深入乱码"><img class="cover" src="https://image.insectmk.cn/hexo-gitee-blog/cover/default/20230610-9.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-06-26</div><div class="title">深入乱码</div></div></a></div><div><a href="/2023/06/26/education/qianfeng/day03/" title="字节码文件解析"><img class="cover" src="https://image.insectmk.cn/hexo-gitee-blog/cover/default/20230610-17.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-06-26</div><div class="title">字节码文件解析</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="waline-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/head/little-boy.png" onerror="this.onerror=null;this.src='/img/website/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">InsectMk</div><div class="author-info__description">每天都要微笑</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">60</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">46</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">11</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/makuning"><i class="fab fa-github"></i><span>关注我</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://gitee.com/makuning" target="_blank" title="Gitee"><i class="iconfont icon-gitee"></i></a><a class="social-icon" href="https://qm.qq.com/cgi-bin/qm/qr?k=CJpzSP3DAGojly8kXY36Wi3rczvFFzuc&amp;noverify=0&amp;personal_qrcode_source=4" target="_blank" title="QQ移动端"><i class="fa fa-mobile"></i></a><a class="social-icon" href="tencent://AddContact/?fromId=45&amp;fromSubId=1&amp;subcmd=all&amp;uin=2514378105&amp;website=www.oicqzone.com" target="_blank" title="QQ桌面端"><i class="fa fa-desktop"></i></a><a class="social-icon" href="mailto:2514378105@qq.com" target="_blank" title="Email"><i class="fas fa-envelope-open-text"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content"><h4>编程小白前来报到！</h4><p>图床已经由Github转到腾讯云对象存储COS啦，国内访问速度嘎嘎快！</p><p>摆烂ing.....</p></div></div><div class="card-widget user-map" id="user-map"><div class="item-headline"><i class="iconfont icon-ziyuan25"></i><span>个人爱好</span></div><div class="item-content"><span>跑步</span><br /><span>骑自行车</span><br /><span>狂吃一顿！</span></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1"><span class="toc-number">1.</span> <span class="toc-text">面向对象</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A6%82%E5%BF%B5"><span class="toc-number">1.1.</span> <span class="toc-text">概念</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%B1%BB"><span class="toc-number">1.2.</span> <span class="toc-text">类</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AF%B9%E8%B1%A1"><span class="toc-number">1.3.</span> <span class="toc-text">对象</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%88%90%E5%91%98%E5%B1%9E%E6%80%A7-x2F-%E6%88%90%E5%91%98%E5%8F%98%E9%87%8F"><span class="toc-number">1.4.</span> <span class="toc-text">成员属性&#x2F;成员变量</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%88%90%E5%91%98%E6%96%B9%E6%B3%95"><span class="toc-number">1.5.</span> <span class="toc-text">成员方法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9E%84%E9%80%A0%E6%96%B9%E6%B3%95"><span class="toc-number">1.6.</span> <span class="toc-text">构造方法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#private-%E7%A7%81%E6%9C%89%E5%8C%96"><span class="toc-number">1.7.</span> <span class="toc-text">private - 私有化</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B0%81%E8%A3%85"><span class="toc-number">1.8.</span> <span class="toc-text">封装</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#this-%E6%9C%AC%E5%AF%B9%E8%B1%A1"><span class="toc-number">1.9.</span> <span class="toc-text">this - 本对象</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%86%E5%8C%85"><span class="toc-number">1.10.</span> <span class="toc-text">分包</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#static-%E9%9D%99%E6%80%81%E7%9A%84"><span class="toc-number">1.11.</span> <span class="toc-text">static - 静态的</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BB%A7%E6%89%BF"><span class="toc-number">1.12.</span> <span class="toc-text">继承</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#super-%E7%88%B6%E7%B1%BB"><span class="toc-number">1.13.</span> <span class="toc-text">super - 父类</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%87%8D%E5%86%99"><span class="toc-number">1.14.</span> <span class="toc-text">重写</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AE%BF%E9%97%AE%E4%BF%AE%E9%A5%B0%E7%AC%A6"><span class="toc-number">1.15.</span> <span class="toc-text">访问修饰符</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Object"><span class="toc-number">1.16.</span> <span class="toc-text">Object</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#final"><span class="toc-number">1.17.</span> <span class="toc-text">final</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8A%BD%E8%B1%A1%E7%B1%BB%E5%8F%8A%E6%8A%BD%E8%B1%A1%E6%96%B9%E6%B3%95"><span class="toc-number">1.18.</span> <span class="toc-text">抽象类及抽象方法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8E%A5%E5%8F%A3"><span class="toc-number">1.19.</span> <span class="toc-text">接口</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A4%9A%E6%80%81"><span class="toc-number">1.20.</span> <span class="toc-text">多态</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AF%B9%E8%B1%A1%E8%BD%AC%E5%9E%8B"><span class="toc-number">1.21.</span> <span class="toc-text">对象转型</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%86%85%E9%83%A8%E7%B1%BB"><span class="toc-number">1.22.</span> <span class="toc-text">内部类</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2023/06/26/education/qianfeng/day01/" title="前锋JavaDay01"><img src="https://image.insectmk.cn/hexo-gitee-blog/cover/default/20230610-1.jpg" onerror="this.onerror=null;this.src='/img/website/404.jpg'" alt="前锋JavaDay01"/></a><div class="content"><a class="title" href="/2023/06/26/education/qianfeng/day01/" title="前锋JavaDay01">前锋JavaDay01</a><time datetime="2023-06-26T12:24:46.000Z" title="更新于 2023-06-26 20:24:46">2023-06-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/06/26/education/qianfeng/day02-1/" title="动/静态语言、强/弱类型语言、编译型/解释形语言的区别"><img src="https://image.insectmk.cn/hexo-gitee-blog/cover/default/20230610-3.jpg" onerror="this.onerror=null;this.src='/img/website/404.jpg'" alt="动/静态语言、强/弱类型语言、编译型/解释形语言的区别"/></a><div class="content"><a class="title" href="/2023/06/26/education/qianfeng/day02-1/" title="动/静态语言、强/弱类型语言、编译型/解释形语言的区别">动/静态语言、强/弱类型语言、编译型/解释形语言的区别</a><time datetime="2023-06-26T12:24:46.000Z" title="更新于 2023-06-26 20:24:46">2023-06-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/06/26/education/qianfeng/day02-2/" title="主方法的构造"><img src="https://image.insectmk.cn/hexo-gitee-blog/cover/default/20230610-12.jpg" onerror="this.onerror=null;this.src='/img/website/404.jpg'" alt="主方法的构造"/></a><div class="content"><a class="title" href="/2023/06/26/education/qianfeng/day02-2/" title="主方法的构造">主方法的构造</a><time datetime="2023-06-26T12:24:46.000Z" title="更新于 2023-06-26 20:24:46">2023-06-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/06/26/education/qianfeng/day02/" title="前锋JavaDay02"><img src="https://image.insectmk.cn/hexo-gitee-blog/cover/default/20230610-16.jpg" onerror="this.onerror=null;this.src='/img/website/404.jpg'" alt="前锋JavaDay02"/></a><div class="content"><a class="title" href="/2023/06/26/education/qianfeng/day02/" title="前锋JavaDay02">前锋JavaDay02</a><time datetime="2023-06-26T12:24:46.000Z" title="更新于 2023-06-26 20:24:46">2023-06-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/06/26/education/qianfeng/day04/" title="深入乱码"><img src="https://image.insectmk.cn/hexo-gitee-blog/cover/default/20230610-9.jpg" onerror="this.onerror=null;this.src='/img/website/404.jpg'" alt="深入乱码"/></a><div class="content"><a class="title" href="/2023/06/26/education/qianfeng/day04/" title="深入乱码">深入乱码</a><time datetime="2023-06-26T12:24:46.000Z" title="更新于 2023-06-26 20:24:46">2023-06-26</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2022 - 2023 By InsectMk</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text"><a target="_blank" rel="noopener" href="https://beian.miit.gov.cn/#/Integrated/index"><img class="icp-icon" src="/img/website/icp.png"><span>备案号：蜀ICP备2023013851号-1</span></a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"><script>function loadWaline () {
+  function initWaline () {
+    const waline = Waline.init(Object.assign({
+      el: '#waline-wrap',
+      serverURL: 'https://hexo-blog-waline-leancloud-vercel.insectmk.cn/',
+      pageview: true,
+      dark: 'html[data-theme="dark"]',
+      path: window.location.pathname,
+      comment: false,
+    }, null))
+  }
+
+  const walineCSSLoad = document.getElementById('waline-css')
+
+  if (typeof Waline === 'object') {
+    walineCSSLoad ? initWaline() : getCSS('https://cdn.jsdelivr.net/npm/@waline/client/dist/waline.min.css','waline-css').then(initWaline)
+  }
+  else {
+    getCSS('https://cdn.jsdelivr.net/npm/@waline/client/dist/waline.min.css','waline-css').then(() => {
+      getScript('https://cdn.jsdelivr.net/npm/@waline/client/dist/waline.min.js').then(initWaline)
+    })
+  }
+}
+
+if ('Waline' === 'Waline' || !false) {
+  if (false) btf.loadComment(document.getElementById('waline-wrap'),loadWaline)
+  else setTimeout(loadWaline, 0)
+} else {
+  function loadOtherComment () {
+    loadWaline()
+  }
+}</script></div><script id="canvas_nest" defer="defer" color="0,0,255" opacity="0.7" zIndex="-1" count="99" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-nest.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+POWERMODE.mobile = true;
+document.body.addEventListener('input', POWERMODE);
+</script><script id="click-show-text" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/click-show-text.min.js" data-mobile="true" data-text="加油！,努力！,你一定可以的！" data-fontsize="15px" data-random="true" async="async"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div class="no-result" id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div></body></html>

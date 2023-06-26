@@ -2929,6 +2929,14 @@ h1.page-title + .tag-cloud-list {
   -ms-flex-direction: column;
   flex-direction: column;
 }
+.page .card-recent-post {
+  -webkit-box-ordinal-group: 4;
+  -moz-box-ordinal-group: 4;
+  -o-box-ordinal-group: 4;
+  -ms-flex-order: 4;
+  -webkit-order: 4;
+  order: 4;
+}
 .page .card-archives {
   -webkit-box-ordinal-group: 3;
   -moz-box-ordinal-group: 3;
