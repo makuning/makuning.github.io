@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://insectmk.cn/2023/07/21/configure/waline-qmsg/</loc>
+    
+    <lastmod>2023-07-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://insectmk.cn/extend/experiment/index.html</loc>
     
     <lastmod>2023-07-20</lastmod>
@@ -996,6 +1005,13 @@
   
   <url>
     <loc>https://insectmk.cn/tags/%E5%91%BD%E4%BB%A4/</loc>
+    <lastmod>2023-07-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://insectmk.cn/tags/Waline/</loc>
     <lastmod>2023-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
