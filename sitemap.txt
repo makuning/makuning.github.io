@@ -1,3 +1,4 @@
+https://insectmk.cn/entertainment/gallery/scenery/index.html
 https://insectmk.cn/2023/01/22/configure-software/jdk8/
 https://insectmk.cn/2023/07/22/configure-software/qmsg-bot/
 https://insectmk.cn/website/log/index.html
@@ -65,7 +66,6 @@ https://insectmk.cn/2022/12/09/configure/spring-aop/
 https://insectmk.cn/2022/12/08/configure/spring-mybatis-junit/
 https://insectmk.cn/2022/11/28/notes/maven-1/
 https://insectmk.cn/2022/11/27/notes/vue2-4/
-https://insectmk.cn/entertainment/gallery/scenery/index.html
 https://insectmk.cn/2022/11/27/notes/vue2-3/
 https://insectmk.cn/2022/11/03/working/hexo-manage/
 https://insectmk.cn/2022/11/25/notes/springboot2-1/

@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://insectmk.cn/entertainment/gallery/scenery/index.html</loc>
+    
+    <lastmod>2023-07-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://insectmk.cn/2023/01/22/configure-software/jdk8/</loc>
     
     <lastmod>2023-07-22</lastmod>
@@ -599,15 +608,6 @@
     <loc>https://insectmk.cn/2022/11/27/notes/vue2-4/</loc>
     
     <lastmod>2022-11-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://insectmk.cn/entertainment/gallery/scenery/index.html</loc>
-    
-    <lastmod>2022-11-27</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
