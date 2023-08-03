@@ -49,7 +49,6 @@ https://insectmk.cn/2023/03/17/knowledge/data-structure/
 https://insectmk.cn/2023/02/27/review/software-construction/
 https://insectmk.cn/2022/12/12/review/software-quality-assurance-and-testing/
 https://insectmk.cn/2023/02/20/review/discrete-mathematics/
-https://insectmk.cn/2023/02/23/homework/english-nickcen-middle/
 https://insectmk.cn/2023/02/10/register/chatgpt/
 https://insectmk.cn/2023/01/20/configure-software/vmware-network-linux/
 https://insectmk.cn/2023/01/23/configure-software/mysql5-7/
@@ -84,7 +83,6 @@ https://insectmk.cn/tags/mvc/
 https://insectmk.cn/tags/JDK/
 https://insectmk.cn/tags/Java/
 https://insectmk.cn/tags/Software/
-https://insectmk.cn/tags/%E8%8B%B1%E8%AF%AD%E5%85%A5%E9%97%A8/
 https://insectmk.cn/tags/transaction/
 https://insectmk.cn/tags/%E4%BA%8B%E5%8A%A1/
 https://insectmk.cn/tags/Mybatis/
@@ -127,7 +125,6 @@ https://insectmk.cn/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/
 https://insectmk.cn/tags/QQ%E6%9C%BA%E5%99%A8%E4%BA%BA/
 https://insectmk.cn/categories/%E7%A8%8B%E5%BA%8F%E9%85%8D%E7%BD%AE/
 https://insectmk.cn/categories/%E8%BD%AF%E4%BB%B6%E9%85%8D%E7%BD%AE/
-https://insectmk.cn/categories/%E4%BD%9C%E4%B8%9A/
 https://insectmk.cn/categories/%E7%9F%A5%E8%AF%86/
 https://insectmk.cn/categories/%E7%AC%94%E8%AE%B0/
 https://insectmk.cn/categories/%E5%AE%9E%E7%94%A8/
