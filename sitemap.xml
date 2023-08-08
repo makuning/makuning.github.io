@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://insectmk.cn/extend/remind/index.html</loc>
+    
+    <lastmod>2023-08-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://insectmk.cn/website/log/index.html</loc>
+    
+    <lastmod>2023-08-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://insectmk.cn/2023/08/04/game/l4d2-server-tick/</loc>
     
     <lastmod>2023-08-08</lastmod>
@@ -38,6 +56,15 @@
   </url>
   
   <url>
+    <loc>https://insectmk.cn/2023/07/31/knowledge/docker/</loc>
+    
+    <lastmod>2023-07-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://insectmk.cn/entertainment/gallery/scenery/index.html</loc>
     
     <lastmod>2023-07-22</lastmod>
@@ -59,15 +86,6 @@
     <loc>https://insectmk.cn/2023/07/22/configure-software/qmsg-bot/</loc>
     
     <lastmod>2023-07-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://insectmk.cn/website/log/index.html</loc>
-    
-    <lastmod>2023-07-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1062,6 +1080,13 @@
   
   <url>
     <loc>https://insectmk.cn/tags/Frp/</loc>
+    <lastmod>2023-08-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://insectmk.cn/tags/Docker/</loc>
     <lastmod>2023-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
