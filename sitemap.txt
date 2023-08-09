@@ -1,8 +1,9 @@
+https://insectmk.cn/2023/08/02/configure-software/frp/
+https://insectmk.cn/2023/08/04/knowledge/linux-command/
 https://insectmk.cn/extend/remind/index.html
 https://insectmk.cn/2023/07/31/knowledge/docker/
 https://insectmk.cn/website/log/index.html
 https://insectmk.cn/2023/08/04/game/l4d2-server-tick/
-https://insectmk.cn/2023/08/02/configure-software/frp/
 https://insectmk.cn/2023/08/08/game/csgo-command/
 https://insectmk.cn/2023/08/04/game/l4d2-server/
 https://insectmk.cn/entertainment/gallery/scenery/index.html
@@ -131,6 +132,7 @@ https://insectmk.cn/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/
 https://insectmk.cn/tags/QQ%E6%9C%BA%E5%99%A8%E4%BA%BA/
 https://insectmk.cn/tags/Frp/
 https://insectmk.cn/tags/Docker/
+https://insectmk.cn/tags/Linux/
 https://insectmk.cn/tags/CSGO/
 https://insectmk.cn/tags/%E6%B1%82%E7%94%9F%E4%B9%8B%E8%B7%AF2/
 https://insectmk.cn/categories/%E7%A8%8B%E5%BA%8F%E9%85%8D%E7%BD%AE/
