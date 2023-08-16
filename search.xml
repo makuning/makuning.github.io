@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>使用docker部署禅道项目管理</title>
+      <link href="/2023/08/16/configure-software/docker-zentao/"/>
+      <url>/2023/08/16/configure-software/docker-zentao/</url>
+      
+        <content type="html"><![CDATA[<h2 id="下载镜像"><a href="#下载镜像" class="headerlink" title="下载镜像"></a>下载镜像</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 此为最新镜像</span></span><br><span class="line">sudo docker pull easysoft/zentao</span><br></pre></td></tr></table></figure><h2 id="创建禅道容器"><a href="#创建禅道容器" class="headerlink" title="创建禅道容器"></a>创建禅道容器</h2><p><strong>创建网络驱动</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo docker network create --subnet=172.172.172.0/24 zentaonet</span><br></pre></td></tr></table></figure><p><strong>启动容器</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">sudo docker run --name zentao \</span><br><span class="line">-p 3001:80 \</span><br><span class="line">-p 3300:3306 \</span><br><span class="line">--network=zentaonet \</span><br><span class="line">--ip 172.172.172.2 \</span><br><span class="line">--mac-address 02:42:ac:11:00:01 \</span><br><span class="line">-v /opt/docker/data/zentao/zentaopms:/www/zentaopms \</span><br><span class="line">-v /opt/docker/data/zentao/mysql:/var/lib/mysql \</span><br><span class="line">-e MYSQL_ROOT_PASSWORD=[root密码] \</span><br><span class="line">-d \</span><br><span class="line">easysoft/zentao</span><br></pre></td></tr></table></figure><h2 id="安装禅道"><a href="#安装禅道" class="headerlink" title="安装禅道"></a>安装禅道</h2><p>访问<code>[服务器ip]:[映射容器80端口的主机端口]</code>，记得放行防火墙。</p><p><img src="https://image.insectmk.cn/hexo-gitee-blog/article/_post/configure-software/docker-zentao/image-20230816171451146.png" alt="image-20230816171451146"></p><p>点击开始安装，同意协议后点击下一步</p><p><img src="https://image.insectmk.cn/hexo-gitee-blog/article/_post/configure-software/docker-zentao/image-20230816171625846.png" alt="image-20230816171625846"></p><p>编辑配置，这里只用修改root密码</p><p><img src="https://image.insectmk.cn/hexo-gitee-blog/article/_post/configure-software/docker-zentao/image-20230816171744785.png" alt="image-20230816171744785"></p><p>预览配置后点击下一步，我这里选择<code>使用全生命周期管理模式</code></p><p><img src="https://image.insectmk.cn/hexo-gitee-blog/article/_post/configure-software/docker-zentao/image-20230816171908734.png" alt="image-20230816171908734"></p><p>设置公司、管理员账号以及密码，不熟悉可以导入demo数据，点击保存</p><p><img src="https://image.insectmk.cn/hexo-gitee-blog/article/_post/configure-software/docker-zentao/image-20230816172020891.png" alt="image-20230816172020891"></p><p>保存后会提示我们注册一个社区账号，可以不用注册，直接点击登录按钮跳转到登录页面，并输入上面设置的管理员账号以及密码</p><p><img src="https://image.insectmk.cn/hexo-gitee-blog/article/_post/configure-software/docker-zentao/image-20230816172349347.png" alt="image-20230816172349347"></p><p>点击登录进入系统，成功进入后台，即表示安装成功</p><p><img src="https://image.insectmk.cn/hexo-gitee-blog/article/_post/configure-software/docker-zentao/image-20230816172435507.png" alt="image-20230816172435507"></p><h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><p><a href="https://hub.docker.com/r/easysoft/zentao">禅道官方Docker文档</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件配置 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 服务器 </tag>
+            
+            <tag> Docker </tag>
+            
+            <tag> 禅道 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>使用screen后台运行</title>
       <link href="/2023/08/16/knowledge/linux-screen/"/>
       <url>/2023/08/16/knowledge/linux-screen/</url>
