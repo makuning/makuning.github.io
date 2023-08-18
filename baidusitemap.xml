@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://insectmk.cn/2023/08/01/game/minecraft-docker/</loc>
+    <lastmod>2023-08-18</lastmod>
+  </url>
+  <url>
+    <loc>https://insectmk.cn/2023/08/18/configure-software/qmsg-private-cloud/</loc>
+    <lastmod>2023-08-18</lastmod>
+  </url>
+  <url>
     <loc>https://insectmk.cn/2023/08/16/configure-software/docker-zentao/</loc>
     <lastmod>2023-08-16</lastmod>
   </url>
   <url>
     <loc>https://insectmk.cn/2023/08/16/knowledge/linux-screen/</loc>
     <lastmod>2023-08-16</lastmod>
+  </url>
+  <url>
+    <loc>https://insectmk.cn/2023/08/11/game/csgo-server/</loc>
+    <lastmod>2023-08-11</lastmod>
+  </url>
+  <url>
+    <loc>https://insectmk.cn/2023/08/11/configure-software/docker-leanote/</loc>
+    <lastmod>2023-08-11</lastmod>
   </url>
   <url>
     <loc>https://insectmk.cn/2023/08/02/configure-software/frp/</loc>
