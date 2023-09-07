@@ -1,3 +1,4 @@
+https://insectmk.cn/2022/12/29/configure/springboot-configure/
 https://insectmk.cn/2023/08/04/game/l4d2-server/
 https://insectmk.cn/2023/08/01/game/minecraft-docker/
 https://insectmk.cn/2023/06/09/practical/website/
@@ -68,7 +69,6 @@ https://insectmk.cn/2023/01/23/configure-software/mysql5-7/
 https://insectmk.cn/2023/01/22/configure-software/maven/
 https://insectmk.cn/2023/01/04/configure/spring-boot-mybatis/
 https://insectmk.cn/2023/01/04/configure/spring-boot-3/
-https://insectmk.cn/2022/12/29/configure/spring-boot-2/
 https://insectmk.cn/2022/12/19/configure/spring-boot/
 https://insectmk.cn/2022/12/12/configure/spring-mvc-3/
 https://insectmk.cn/2022/12/12/configure/spring-mvc-2/
