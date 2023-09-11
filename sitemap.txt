@@ -67,9 +67,9 @@ https://insectmk.cn/2023/02/10/register/chatgpt/
 https://insectmk.cn/2023/01/20/configure-software/vmware-network-linux/
 https://insectmk.cn/2023/01/23/configure-software/mysql5-7/
 https://insectmk.cn/2023/01/22/configure-software/maven/
-https://insectmk.cn/2023/01/04/configure/spring-boot-mybatis/
-https://insectmk.cn/2023/01/04/configure/spring-boot-3/
-https://insectmk.cn/2022/12/19/configure/spring-boot/
+https://insectmk.cn/2023/01/04/configure/springboot-mybatis/
+https://insectmk.cn/2023/01/04/configure/springboot-3/
+https://insectmk.cn/2022/12/19/configure/springboot/
 https://insectmk.cn/2022/12/12/configure/spring-mvc-3/
 https://insectmk.cn/2022/12/12/configure/spring-mvc-2/
 https://insectmk.cn/2022/12/11/configure/spring-mvc/
