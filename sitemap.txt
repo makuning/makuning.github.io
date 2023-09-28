@@ -1,3 +1,6 @@
+https://insectmk.cn/2023/09/14/configure/oss-java/
+https://insectmk.cn/2023/09/11/configure/mybatisplus-pages/
+https://insectmk.cn/2023/09/11/configure/springboot-mybatisplus/
 https://insectmk.cn/2022/12/29/configure/springboot-configure/
 https://insectmk.cn/2023/08/04/game/l4d2-server/
 https://insectmk.cn/2023/08/01/game/minecraft-docker/
@@ -147,6 +150,11 @@ https://insectmk.cn/tags/screen/
 https://insectmk.cn/tags/%E7%A6%85%E9%81%93/
 https://insectmk.cn/tags/Ubuntu/
 https://insectmk.cn/tags/Qmsg/
+https://insectmk.cn/tags/MybatisPlus/
+https://insectmk.cn/tags/%E5%88%86%E9%A1%B5/
+https://insectmk.cn/tags/SpringBoot/
+https://insectmk.cn/tags/MyBatisPlus/
+https://insectmk.cn/tags/OSS/
 https://insectmk.cn/categories/%E7%A8%8B%E5%BA%8F%E9%85%8D%E7%BD%AE/
 https://insectmk.cn/categories/%E8%BD%AF%E4%BB%B6%E9%85%8D%E7%BD%AE/
 https://insectmk.cn/categories/%E7%9F%A5%E8%AF%86/
