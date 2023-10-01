@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>安装Node版本管理工具</title>
+      <link href="/2023/10/01/configure-software/node-nvm/"/>
+      <url>/2023/10/01/configure-software/node-nvm/</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>在使用Node时，经常会遇到版本不匹配的问题。</p><p>平时会去下载一些别人的Node项目，但是这些优秀的项目使用的Node版本经常是不兼容的。</p><p>但是电脑的环境变量只能配置一个Node版本，如果每次使用不同的版本就指定Node目录或者重新配置新的环境变量，这样是特别麻烦的。</p><p>所以这时候我们就需要使用一个Node版本管理工具，推荐使用NVM，这是Github上面的一个开源项目，目前已经有70k+的star了。</p><p><a href="https://github.com/nvm-sh/nvm">NVM Github仓库地址</a>，NVM支持很多平台，这里就演示Windows平台下的安装。</p><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><p>Windows的NVM单独创建了一个仓库，<a href="https://github.com/coreybutler/nvm-windows">仓库地址</a>。</p><p>我们到<a href="https://github.com/coreybutler/nvm-windows/releases">MVN Windows版的发行版页面</a>进行下载，下载<strong>noinstall</strong>版本即可，本次教程为目前最新版本<code>1.1.11</code></p><p><img src="https://image.insectmk.cn/hexo-gitee-blog/article/_post/configure-software/node-nvm/image-20231001141300900.png" alt="image-20231001141300900"></p><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>下载完成后将压缩包解压。</p><p>接下来就是比较重要的配置了，首先需要创建环境变量：</p><p>其中<strong>NVM_HOME</strong>是解压后的文件夹中<code>nvm.exe</code>可执行文件的全路径。</p><p><strong>NVM_SYMLINK</strong>就像是你Node的家目录。</p><table><thead><tr><th>变量名</th><th>变量值</th></tr></thead><tbody><tr><td>NVM_HOME</td><td>E:\download\compressed\nvm-noinstall\nvm</td></tr><tr><td>NVM_SYMLINK</td><td>E:\software-for-support\nvm-nodejs</td></tr></tbody></table><p><img src="https://image.insectmk.cn/hexo-gitee-blog/article/_post/configure-software/node-nvm/image-20231001142620518.png" alt="image-20231001142620518"></p><p>然后再在<strong>Path</strong>环境变量中引入这两个环境变量：</p><p><img src="https://image.insectmk.cn/hexo-gitee-blog/article/_post/configure-software/node-nvm/image-20231001142754259.png" alt="image-20231001142754259"></p><p>最后在NVM的根目录，即本文中的<code>E:\download\compressed\nvm-noinstall</code>目录下创建<code>settings.txt</code>文件，写入以下内容：</p><figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">root: E:<span class="keyword">\download</span><span class="keyword">\compressed</span><span class="keyword">\nvm</span>-noinstall</span><br><span class="line">path: E:<span class="keyword">\software</span>-for-support<span class="keyword">\nvm</span>-nodejs</span><br></pre></td></tr></table></figure><p>其中<strong>root</strong>表示你下载的不同的版本的Node会放在哪里，<strong>path</strong>表示当前选择的Node版本是放在哪个路径。</p><p>当你切换Node版本时，NVM会从指定的<strong>root</strong>的路径中去寻找对应版本的Node，然后覆盖到指定的<strong>path</strong>路径中。</p><p>这也就意味着如果你想要在任意工作目录访问Node，那么你配置的<strong>NVM_SYMLINK</strong>环境便令就必须跟这里指定的<strong>path</strong>的值一样。</p><h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>完成上面两节的步骤后，就已经安装完成了。</p><p>这里我们就需要打开终端输入<code>nvm --version</code>验证一下是否安装成功，成功打印版本号即表示安装成功。</p><p>以下列出自己常用的命令：</p><table><thead><tr><th>命令</th><th>解释</th></tr></thead><tbody><tr><td>nvm</td><td>查看指令说明</td></tr><tr><td>nvm install <version></td><td>安装指定版本Node</td></tr><tr><td>nvm uninstall <version></td><td>卸载指定版本Node</td></tr><tr><td>nvm use <version></td><td>使用指定版本的Node</td></tr><tr><td>nvm list</td><td>查看本机安装了哪些版本的Node以及正在使用的Node</td></tr></tbody></table><h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><p><a href="https://www.cnblogs.com/Jamie1032797633/p/9855647.html">绿色版NVM安装与配置详细说明</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件配置 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Node </tag>
+            
+            <tag> NVM </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>在Java项目中使用阿里云OSS</title>
       <link href="/2023/09/14/configure/oss-java/"/>
       <url>/2023/09/14/configure/oss-java/</url>
