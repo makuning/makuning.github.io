@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://insectmk.cn/2023/10/01/tutorial/node-vue2/</loc>
+    
+    <lastmod>2023-10-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://insectmk.cn/2023/10/01/configure-software/node-nvm/</loc>
     
     <lastmod>2023-10-01</lastmod>
@@ -1298,6 +1307,13 @@
   
   <url>
     <loc>https://insectmk.cn/tags/NVM/</loc>
+    <lastmod>2023-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://insectmk.cn/tags/NPM/</loc>
     <lastmod>2023-10-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>使用Vue脚手架快速创建项目</title>
+      <link href="/2023/10/01/tutorial/node-vue2/"/>
+      <url>/2023/10/01/tutorial/node-vue2/</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>最近在学校老师的带领下，开发一个练手项目，叫做<a href="https://gitee.com/makuning/itheima-health">传智健康</a>。</p><p>这是一个单体项目，后端还是比较常规，前端使用的是Vue+Element，但是并未使用组件化。</p><p>再加上没有使用前端工程化，前端的代码显得非常杂乱，难以维护，所以想对其进行修改，打算将其修改为前后分离的项目。</p><p>之前没有接触过前端开发，所以从最简单的搭建脚手架开始吧~</p><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>因为要使用前端工程化，所以必须要用到Node来构建我们的工程化项目。</p><p>你可以选择去<a href="https://nodejs.cn/download/">官网下载</a>单体的Node。</p><p>也可以选择下载NVM，NVM的下载可以参考站内文章：<a href="/2023/10/01/configure-software/node-nvm/" title="安装Node版本管理工具">安装Node版本管理工具</a>。</p><p>安装好Node后，就可以安装我们的<strong>Vue脚手架</strong>了，在终端执行<code>npm install -g @vue/cli</code>以安装<strong>Vue脚手架</strong></p><p><img src="https://image.insectmk.cn/hexo-gitee-blog/article/_post/tutorial/node-vue2/image-20231001173752834.png" alt="image-20231001173752834"></p><p>程序员金句：<strong>警告不是错</strong>。</p><p>执行完成后，会出现<code>added xxx packages in xxm</code>，就安装成功啦。</p><h2 id="创建项目"><a href="#创建项目" class="headerlink" title="创建项目"></a>创建项目</h2><p>进入终端，并切换到你项目想存放的目录后键入<code>vue create &lt;项目名称&gt; </code>以开始创建。</p><p><img src="https://image.insectmk.cn/hexo-gitee-blog/article/_post/tutorial/node-vue2/image-20231001175247117.png" alt="image-20231001175247117"></p><p>可以看到默认给了我们三种方案：</p><ol><li>快速创建Vue3：带babel与eslint</li><li>快速创建Vue2：带babel与eslint</li><li>手动创建</li></ol><p><strong>这里演示手动安装</strong></p><p>使用方向键选择<code>Manually select features</code>选项，使用<code>空格键</code>选中（基于我的认知，选择了如下内容）：</p><p><img src="https://image.insectmk.cn/hexo-gitee-blog/article/_post/tutorial/node-vue2/image-20231001181417402.png" alt="image-20231001181417402"></p><p>选项解释如下：</p><table><thead><tr><th>选项</th><th>说明</th></tr></thead><tbody><tr><td>Babel</td><td>使用Babel可以将新的JavaScript语法转换为浏览器可以理解的旧版本语法，以兼容性更好地支持不同浏览器。</td></tr><tr><td>TypeScript</td><td>选择此选项可以使用TypeScript来编写你的Vue应用程序，它是一种类型安全的JavaScript超集。</td></tr><tr><td>Progressive Web App (PWA) Support</td><td>选择此选项会为你的应用程序添加Progressive Web App支持，使你的应用可以像本地应用一样运行。</td></tr><tr><td>Router</td><td>选择此选项将自动安装和配置Vue Router，它是Vue的官方路由器，用于管理应用程序的不同页面之间的导航。</td></tr><tr><td>Vuex</td><td>选择此选项将自动安装和配置Vuex，它是Vue的官方状态管理库，用于在应用程序中管理全局状态。</td></tr><tr><td>CSS Pre-processors</td><td>选择此选项可以选择使用哪种CSS预处理器，例如Sass、Less或Stylus，以增强你的样式表编写体验。</td></tr><tr><td>Linter &#x2F; Formatter</td><td>选择此选项将添加代码质量和风格检查工具，例如ESLint，并自动格式化你的代码。</td></tr><tr><td>Unit Testing</td><td>选择此选项将添加单元测试的支持，你可以使用工具如Jest或Mocha来编写和运行测试。</td></tr><tr><td>E2E Testing</td><td>选择此选项将添加端到端测试的支持，你可以使用工具如Cypress或Puppeteer来模拟用户操作并进行应用的整体测试。</td></tr></tbody></table><p>回车后选择<code>vue2.x</code>版本：</p><p><img src="https://image.insectmk.cn/hexo-gitee-blog/article/_post/tutorial/node-vue2/image-20231001181504821.png" alt="image-20231001181504821"></p><p>选择后会根据之前的选项配置各个选项，按需配置就行，也可以一直回车，构建完成后出现以下内容：</p><p><img src="https://image.insectmk.cn/hexo-gitee-blog/article/_post/tutorial/node-vue2/image-20231001181818370.png" alt="image-20231001181818370"></p><p>进入项目目录<code>cd &lt;项目目录&gt;</code>，执行<code>npm run serve</code>，跑起来后访问<code>http://localhost:8080/</code>就可以看到已经搭建成功啦~</p><p><img src="https://image.insectmk.cn/hexo-gitee-blog/article/_post/tutorial/node-vue2/image-20231001182129068.png" alt="image-20231001182129068"></p><p><img src="https://image.insectmk.cn/hexo-gitee-blog/article/_post/tutorial/node-vue2/image-20231001182227740.png" alt="image-20231001182227740"></p><h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><p><a href="https://zhuanlan.zhihu.com/p/628439854">手动搭建一个完整的vue2项目（超详细_完整步骤）</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Vue2 </tag>
+            
+            <tag> Node </tag>
+            
+            <tag> NPM </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>安装Node版本管理工具</title>
       <link href="/2023/10/01/configure-software/node-nvm/"/>
       <url>/2023/10/01/configure-software/node-nvm/</url>
