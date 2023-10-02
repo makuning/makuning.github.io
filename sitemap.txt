@@ -1,3 +1,4 @@
+https://insectmk.cn/2023/10/02/knowledge/git/
 https://insectmk.cn/2023/10/01/tutorial/node-vue2/
 https://insectmk.cn/2023/10/01/configure-software/node-nvm/
 https://insectmk.cn/2023/09/14/configure/oss-java/
@@ -160,6 +161,7 @@ https://insectmk.cn/tags/%E5%9F%B9%E8%AE%AD/
 https://insectmk.cn/tags/Node/
 https://insectmk.cn/tags/NVM/
 https://insectmk.cn/tags/NPM/
+https://insectmk.cn/tags/Git/
 https://insectmk.cn/categories/%E7%A8%8B%E5%BA%8F%E9%85%8D%E7%BD%AE/
 https://insectmk.cn/categories/%E8%BD%AF%E4%BB%B6%E9%85%8D%E7%BD%AE/
 https://insectmk.cn/categories/%E6%B8%B8%E6%88%8F/

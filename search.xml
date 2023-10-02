@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>版本控制工具Git</title>
+      <link href="/2023/10/02/knowledge/git/"/>
+      <url>/2023/10/02/knowledge/git/</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>平时在开发的过程中，代码在不断的更新中会出现各种各样的问题，但是进行排查的时候已经回忆不起以前到底操作了什么，只能够全部排查，这样会特别头痛。</p><p>或者是每次代码的更新到底更新了什么，如果让我们用脑子去记或者是专门写个文档来记录，那也太麻烦了，所以我们得引入我们的版本控制工具，别人已经帮我们解决这类问题了。</p><p>版本控制工具有很多，我这里只用过Git，那是相当好用呀，做了什么修改，提交了什么内容，一目了然，出现问题也方便回溯。</p><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>到<a href="https://git-scm.com/downloads">官网下载地址</a>进行下载。</p><p>如果安装也有对应的<a href="https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git">官方安装文档</a>。</p><h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>我们可以使用第三方的远程仓库，例如：<a href="https://github.com/">GitHub</a>、<a href="https://gitee.com/">Gitee</a></p><p><strong>常用命令</strong></p><table><thead><tr><th>命令</th><th>说明</th></tr></thead><tbody><tr><td>git clone &lt;仓库地址&gt;</td><td>克隆一个仓库到当前目录</td></tr><tr><td>git add *</td><td>跟踪所有文件</td></tr><tr><td>git commit -m “&lt;提交消息&gt;”</td><td>提交所有跟踪文件的变化信息</td></tr><tr><td>git push</td><td>将本地仓库的信息提交到远程仓库</td></tr><tr><td>git pull</td><td>将远程仓库的信息更新到本地仓库</td></tr></tbody></table><h2 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h2><p>不懂Git，在使用时常常会出现一些难以理解的问题，这里会记录常见的问题以及解决方法。</p><h3 id="忽略文件"><a href="#忽略文件" class="headerlink" title="忽略文件"></a>忽略文件</h3><p>在修改忽略文件时，那些已经被跟踪的文件不会被忽略掉，这样让我很头痛。</p><p>在网上找到的文章能够让忽略文件立即生效，运行以下代码：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 清除 Git 缓存中的所有文件，以确保 Git 会重新读取 .gitignore 文件</span></span><br><span class="line"><span class="comment"># 这个命令会将 Git 缓存中的所有文件标记为需要删除。</span></span><br><span class="line">git <span class="built_in">rm</span> -r --cached .</span><br><span class="line"></span><br><span class="line"><span class="comment"># 运行以下命令，将未被 Git 跟踪的文件添加回到 Git 仓库中：</span></span><br><span class="line">git add .</span><br><span class="line"></span><br><span class="line"><span class="comment"># 运行以下命令，提交更改</span></span><br><span class="line">git commit -m <span class="string">&quot;Update .gitignore&quot;</span></span><br></pre></td></tr></table></figure><h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><p><a href="https://juejin.cn/post/7224696614458523709">更改.gitignore文件并立刻生效</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 知识 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>使用Vue脚手架快速创建项目</title>
       <link href="/2023/10/01/tutorial/node-vue2/"/>
       <url>/2023/10/01/tutorial/node-vue2/</url>
