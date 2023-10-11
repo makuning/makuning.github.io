@@ -1,9 +1,13 @@
+https://insectmk.cn/website/log/index.html
 https://insectmk.cn/2023/10/10/tutorial/docker-waline/
+https://insectmk.cn/2023/10/08/configure/springboot-jwt/
+https://insectmk.cn/2023/10/08/configure/vue2-router-defend/
+https://insectmk.cn/2023/10/08/configure/vue2-router/
+https://insectmk.cn/2023/10/07/configure/springboot-cross-domain/
 https://insectmk.cn/2023/10/02/knowledge/git/
 https://insectmk.cn/2023/10/01/tutorial/node-vue2/
 https://insectmk.cn/2023/10/01/configure-software/node-nvm/
 https://insectmk.cn/2023/09/14/configure/oss-java/
-https://insectmk.cn/website/log/index.html
 https://insectmk.cn/2023/09/11/configure/mybatisplus-pages/
 https://insectmk.cn/2023/09/11/configure/springboot-mybatisplus/
 https://insectmk.cn/2022/12/29/configure/springboot-configure/
@@ -163,6 +167,7 @@ https://insectmk.cn/tags/Node/
 https://insectmk.cn/tags/NVM/
 https://insectmk.cn/tags/NPM/
 https://insectmk.cn/tags/Git/
+https://insectmk.cn/tags/JWT/
 https://insectmk.cn/categories/%E7%A8%8B%E5%BA%8F%E9%85%8D%E7%BD%AE/
 https://insectmk.cn/categories/%E8%BD%AF%E4%BB%B6%E9%85%8D%E7%BD%AE/
 https://insectmk.cn/categories/%E6%B8%B8%E6%88%8F/
