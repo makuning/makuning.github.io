@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>使用Docker部署Waline评论服务端</title>
+      <link href="/2023/10/10/tutorial/docker-waline/"/>
+      <url>/2023/10/10/tutorial/docker-waline/</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>最近在浏览自己博客的时候发现一些问题。</p><p>博客的Waline评论系统服务端是托管在<a href="https://vercel.com/">vercel平台</a>的，因为是国外网站，所以访问会比较慢。</p><p>但是最近发现有时候还会出现访问不了的情况，这让我很头痛，所以打算自己本地部署Waline服务端。</p><p>如需使用Docker部署Waline评论服务端，请提前做好以下准备：</p><ul><li><a href="https://waline.js.org/guide/get-started/">LeanCloud 设置 (数据库)</a></li><li><a href="/2023/07/31/knowledge/docker/" title="Docker">Docker的安装</a></li></ul><h2 id="启动容器"><a href="#启动容器" class="headerlink" title="启动容器"></a>启动容器</h2><p>使用以下命令启动容器，记得开放<strong>8360端口</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">sudo docker run -d \</span><br><span class="line">  -e LEAN_ID=xxx \</span><br><span class="line">  -e LEAN_KEY=xxx \</span><br><span class="line">  -e LEAN_MASTER_KEY=xxx \</span><br><span class="line">  -e LEAN_SERVER=xxx \</span><br><span class="line">  -p 8360:8360 \</span><br><span class="line">  --restart=always \</span><br><span class="line">  --name waline-server \</span><br><span class="line">  lizheming/waline</span><br></pre></td></tr></table></figure><p><strong>参数解释</strong></p><table><thead><tr><th align="left">参数</th><th>解释</th></tr></thead><tbody><tr><td align="left">-e LEAN_ID&#x3D;xxx</td><td>LeanCloud的APP ID</td></tr><tr><td align="left">-e LEAN_KEY&#x3D;xxx</td><td>LeanCloud的APP KEY</td></tr><tr><td align="left">-e LEAN_MASTER_KEY&#x3D;xxx</td><td>LeanCloud的Master Key</td></tr><tr><td align="left">-e LEAN_SERVER&#x3D;xxx</td><td>如果LeanCloud为国内版，需要加上绑定LeanCloud的域名</td></tr><tr><td align="left">-p 8360:8360</td><td>映射8360端口</td></tr><tr><td align="left">–restart&#x3D;always</td><td>系统重启时容器也启动</td></tr><tr><td align="left">–name waline-server</td><td>容器名</td></tr></tbody></table><h2 id="配置SSL"><a href="#配置SSL" class="headerlink" title="配置SSL"></a>配置SSL</h2><p>如需使用<strong>HTTPS</strong>访问，则需配置SSL，使用Nginx配置SSL。</p><p>首先需要下载证书，得到<code>.pem</code>与<code>.key</code>文件，在Nginx配置文件中添加如下配置：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line">server &#123;</span><br><span class="line">    listen  80;</span><br><span class="line">    listen 443 ssl http2;</span><br><span class="line">    # 域名</span><br><span class="line">    server_name waline-server.insectmk.cn;</span><br><span class="line">    if ($server_port !~ 443)&#123;</span><br><span class="line">      rewrite ^(/.*)$ https://$host$1 permanent;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line">    # ssl证书的pem文件路径</span><br><span class="line">    ssl_certificate  /root/Token/SSL/waline-server.insectmk.cn_nginx/waline-server.insectmk.cn_bundle.pem;</span><br><span class="line">    # ssl证书的key文件路径</span><br><span class="line">    ssl_certificate_key /root/Token/SSL/waline-server.insectmk.cn_nginx/waline-server.insectmk.cn.key;</span><br><span class="line">    ssl_protocols TLSv1.1 TLSv1.2 TLSv1.3;</span><br><span class="line">    ssl_ciphers EECDH+CHACHA20:EECDH+CHACHA20-draft:EECDH+AES128:RSA+AES128:EECDH+AES256:RSA+AES256:EECDH+3DES:RSA+3DES:!MD5;</span><br><span class="line">    ssl_prefer_server_ciphers on;</span><br><span class="line">    ssl_session_cache shared:SSL:10m;</span><br><span class="line">    ssl_session_timeout 10m;</span><br><span class="line">    add_header Strict-Transport-Security &quot;max-age=31536000&quot;;</span><br><span class="line">    </span><br><span class="line">    location / &#123;</span><br><span class="line">        proxy_pass  http://127.0.0.1:8360/;</span><br><span class="line">        index index.html index.htm;</span><br><span class="line">        proxy_set_header Host $host;</span><br><span class="line">        proxy_set_header X-Real-IP $remote_addr;</span><br><span class="line">        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;</span><br><span class="line">        proxy_set_header X-Forwarded-Proto $scheme;</span><br><span class="line">        proxy_set_header REMOTE-HOST $remote_addr;</span><br><span class="line">        add_header X-Cache $upstream_cache_status;</span><br><span class="line">    &#125;</span><br><span class="line">    access_log /www/wwwlogs/nginx/product/ssl-waline-server.log;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>重载配置后就能使用HTTPS访问了。</p><h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><p><a href="https://waline.js.org/guide/deploy/vps.html">Waline独立部署</a></p><p><a href="https://www.cnblogs.com/ambition26/p/14077773.html">Nginx配置Https（详细、完整）</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Docker </tag>
+            
+            <tag> Waline </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>版本控制工具Git</title>
       <link href="/2023/10/02/knowledge/git/"/>
       <url>/2023/10/02/knowledge/git/</url>

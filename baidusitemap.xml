@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://insectmk.cn/2023/10/10/tutorial/docker-waline/</loc>
+    <lastmod>2023-10-10</lastmod>
+  </url>
+  <url>
     <loc>https://insectmk.cn/2023/10/02/knowledge/git/</loc>
     <lastmod>2023-10-02</lastmod>
   </url>
