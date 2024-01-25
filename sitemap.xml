@@ -2,16 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://insectmk.cn/2023/08/04/game/l4d2-server/</loc>
+    <loc>https://insectmk.cn/website/log/index.html</loc>
     
-    <lastmod>2024-01-24</lastmod>
+    <lastmod>2024-01-25</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://insectmk.cn/website/log/index.html</loc>
+    <loc>https://insectmk.cn/2024/01/25/knowledge/anaconda/</loc>
+    
+    <lastmod>2024-01-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://insectmk.cn/2024/01/17/configure-software/chatglm2-6b/</loc>
+    
+    <lastmod>2024-01-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://insectmk.cn/2023/08/04/game/l4d2-server/</loc>
     
     <lastmod>2024-01-24</lastmod>
     
@@ -344,25 +362,7 @@
   </url>
   
   <url>
-    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day02-1/</loc>
-    
-    <lastmod>2023-06-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day01/</loc>
-    
-    <lastmod>2023-06-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day02-2/</loc>
     
     <lastmod>2023-06-26</lastmod>
     
@@ -380,7 +380,25 @@
   </url>
   
   <url>
+    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day02-2/</loc>
+    
+    <lastmod>2023-06-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day03/</loc>
+    
+    <lastmod>2023-06-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day02-1/</loc>
     
     <lastmod>2023-06-26</lastmod>
     
@@ -407,7 +425,7 @@
   </url>
   
   <url>
-    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day07/</loc>
+    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day09-1/</loc>
     
     <lastmod>2023-06-26</lastmod>
     
@@ -416,7 +434,7 @@
   </url>
   
   <url>
-    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day09-1/</loc>
+    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day07/</loc>
     
     <lastmod>2023-06-26</lastmod>
     
@@ -434,24 +452,6 @@
   </url>
   
   <url>
-    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day10-1/</loc>
-    
-    <lastmod>2023-06-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day09-3/</loc>
-    
-    <lastmod>2023-06-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day10-2/</loc>
     
     <lastmod>2023-06-26</lastmod>
@@ -461,16 +461,7 @@
   </url>
   
   <url>
-    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day16/</loc>
-    
-    <lastmod>2023-06-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day20-2/</loc>
+    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day10-1/</loc>
     
     <lastmod>2023-06-26</lastmod>
     
@@ -489,6 +480,33 @@
   
   <url>
     <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day23-1/</loc>
+    
+    <lastmod>2023-06-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day09-3/</loc>
+    
+    <lastmod>2023-06-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day16/</loc>
+    
+    <lastmod>2023-06-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day20-2/</loc>
     
     <lastmod>2023-06-26</lastmod>
     
@@ -542,7 +560,7 @@
   </url>
   
   <url>
-    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day26/</loc>
+    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day28/</loc>
     
     <lastmod>2023-06-26</lastmod>
     
@@ -551,7 +569,7 @@
   </url>
   
   <url>
-    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day28/</loc>
+    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day26/</loc>
     
     <lastmod>2023-06-26</lastmod>
     
@@ -921,20 +939,6 @@
   </url>
   
   <url>
-    <loc>https://insectmk.cn/tags/Spring/</loc>
-    <lastmod>2024-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://insectmk.cn/tags/AOP/</loc>
-    <lastmod>2024-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://insectmk.cn/tags/spring/</loc>
     <lastmod>2024-01-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -949,14 +953,14 @@
   </url>
   
   <url>
-    <loc>https://insectmk.cn/tags/transaction/</loc>
+    <loc>https://insectmk.cn/tags/Spring/</loc>
     <lastmod>2024-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://insectmk.cn/tags/%E4%BA%8B%E5%8A%A1/</loc>
+    <loc>https://insectmk.cn/tags/AOP/</loc>
     <lastmod>2024-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -977,27 +981,6 @@
   </url>
   
   <url>
-    <loc>https://insectmk.cn/tags/Mybatis/</loc>
-    <lastmod>2024-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://insectmk.cn/tags/Junit/</loc>
-    <lastmod>2024-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://insectmk.cn/tags/IntelliJ-IDEA/</loc>
-    <lastmod>2024-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://insectmk.cn/tags/profile/</loc>
     <lastmod>2024-01-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -1005,28 +988,14 @@
   </url>
   
   <url>
-    <loc>https://insectmk.cn/tags/mybatis/</loc>
+    <loc>https://insectmk.cn/tags/transaction/</loc>
     <lastmod>2024-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://insectmk.cn/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
-    <lastmod>2024-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://insectmk.cn/tags/Docker/</loc>
-    <lastmod>2024-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://insectmk.cn/tags/%E7%A6%85%E9%81%93/</loc>
+    <loc>https://insectmk.cn/tags/%E4%BA%8B%E5%8A%A1/</loc>
     <lastmod>2024-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1040,7 +1009,42 @@
   </url>
   
   <url>
+    <loc>https://insectmk.cn/tags/JWT/</loc>
+    <lastmod>2024-01-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://insectmk.cn/tags/mybatis/</loc>
+    <lastmod>2024-01-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://insectmk.cn/tags/MyBatisPlus/</loc>
+    <lastmod>2024-01-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://insectmk.cn/tags/Vue2/</loc>
+    <lastmod>2024-01-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://insectmk.cn/tags/ChatGLM/</loc>
+    <lastmod>2024-01-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://insectmk.cn/tags/Docker/</loc>
     <lastmod>2024-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1068,14 +1072,7 @@
   </url>
   
   <url>
-    <loc>https://insectmk.cn/tags/JDK/</loc>
-    <lastmod>2024-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://insectmk.cn/tags/Software/</loc>
+    <loc>https://insectmk.cn/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
     <lastmod>2024-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1089,7 +1086,21 @@
   </url>
   
   <url>
-    <loc>https://insectmk.cn/tags/Maven/</loc>
+    <loc>https://insectmk.cn/tags/%E7%A6%85%E9%81%93/</loc>
+    <lastmod>2024-01-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://insectmk.cn/tags/JDK/</loc>
+    <lastmod>2024-01-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://insectmk.cn/tags/Software/</loc>
     <lastmod>2024-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1110,14 +1121,42 @@
   </url>
   
   <url>
-    <loc>https://insectmk.cn/tags/QQ%E6%9C%BA%E5%99%A8%E4%BA%BA/</loc>
+    <loc>https://insectmk.cn/tags/Maven/</loc>
     <lastmod>2024-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://insectmk.cn/tags/CSGO/</loc>
+    <loc>https://insectmk.cn/tags/Node/</loc>
+    <lastmod>2024-01-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://insectmk.cn/tags/NVM/</loc>
+    <lastmod>2024-01-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://insectmk.cn/tags/Mybatis/</loc>
+    <lastmod>2024-01-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://insectmk.cn/tags/Junit/</loc>
+    <lastmod>2024-01-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://insectmk.cn/tags/IntelliJ-IDEA/</loc>
     <lastmod>2024-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1132,6 +1171,13 @@
   
   <url>
     <loc>https://insectmk.cn/tags/Qmsg/</loc>
+    <lastmod>2024-01-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://insectmk.cn/tags/QQ%E6%9C%BA%E5%99%A8%E4%BA%BA/</loc>
     <lastmod>2024-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1166,6 +1212,13 @@
   </url>
   
   <url>
+    <loc>https://insectmk.cn/tags/CSGO/</loc>
+    <lastmod>2024-01-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://insectmk.cn/tags/%E6%B1%82%E7%94%9F%E4%B9%8B%E8%B7%AF2/</loc>
     <lastmod>2024-01-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -1174,6 +1227,34 @@
   
   <url>
     <loc>https://insectmk.cn/tags/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/</loc>
+    <lastmod>2024-01-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://insectmk.cn/tags/Python/</loc>
+    <lastmod>2024-01-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://insectmk.cn/tags/Conda/</loc>
+    <lastmod>2024-01-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://insectmk.cn/tags/Anaconda/</loc>
+    <lastmod>2024-01-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://insectmk.cn/tags/Git/</loc>
     <lastmod>2024-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1250,13 +1331,6 @@
   </url>
   
   <url>
-    <loc>https://insectmk.cn/tags/Vue2/</loc>
-    <lastmod>2024-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://insectmk.cn/tags/%E6%8E%A8%E8%8D%90/</loc>
     <lastmod>2024-01-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -1306,6 +1380,13 @@
   </url>
   
   <url>
+    <loc>https://insectmk.cn/tags/%E8%81%8A%E4%B8%80%E8%81%8A/</loc>
+    <lastmod>2024-01-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://insectmk.cn/tags/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2024-01-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -1313,7 +1394,7 @@
   </url>
   
   <url>
-    <loc>https://insectmk.cn/tags/%E8%81%8A%E4%B8%80%E8%81%8A/</loc>
+    <loc>https://insectmk.cn/tags/NPM/</loc>
     <lastmod>2024-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1356,41 +1437,6 @@
   
   <url>
     <loc>https://insectmk.cn/tags/%E5%9F%B9%E8%AE%AD/</loc>
-    <lastmod>2024-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://insectmk.cn/tags/Node/</loc>
-    <lastmod>2024-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://insectmk.cn/tags/NVM/</loc>
-    <lastmod>2024-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://insectmk.cn/tags/NPM/</loc>
-    <lastmod>2024-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://insectmk.cn/tags/Git/</loc>
-    <lastmod>2024-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://insectmk.cn/tags/JWT/</loc>
     <lastmod>2024-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
