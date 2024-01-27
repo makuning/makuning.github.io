@@ -1,3 +1,4 @@
+https://insectmk.cn/extend/remind/index.html
 https://insectmk.cn/website/log/index.html
 https://insectmk.cn/2024/01/26/tutorial/chatglm2-6b-api/
 https://insectmk.cn/2024/01/17/configure-software/chatglm2-6b/
@@ -25,7 +26,6 @@ https://insectmk.cn/2023/08/11/game/csgo-server/
 https://insectmk.cn/2023/08/11/configure-software/docker-leanote/
 https://insectmk.cn/2023/08/02/configure-software/frp/
 https://insectmk.cn/2023/08/04/knowledge/linux-command/
-https://insectmk.cn/extend/remind/index.html
 https://insectmk.cn/2023/07/31/knowledge/docker/
 https://insectmk.cn/2023/08/04/game/l4d2-server-tick/
 https://insectmk.cn/2023/08/08/game/csgo-command/
