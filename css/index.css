@@ -210,13 +210,13 @@ template {
 }
 .fontawesomeIcon,
 .custom-hr:before,
-#article-container.post-content h1:before,
-#article-container.post-content h2:before,
-#article-container.post-content h3:before,
-#article-container.post-content h4:before,
-#article-container.post-content h5:before,
-#article-container.post-content h6:before,
-#article-container.post-content hr:before,
+#article-container h1:before,
+#article-container h2:before,
+#article-container h3:before,
+#article-container h4:before,
+#article-container h5:before,
+#article-container h6:before,
+#article-container hr:before,
 #post .post-copyright:before,
 #post .post-outdate-notice:before,
 .note:not(.no-icon)::before,
@@ -335,7 +335,7 @@ template {
   transition: all 0.3s ease-out;
 }
 .custom-hr,
-#article-container.post-content hr,
+#article-container hr,
 .search-dialog hr {
   position: relative;
   margin: 40px auto;
@@ -343,12 +343,12 @@ template {
   width: calc(100% - 4px);
 }
 .custom-hr:hover:before,
-#article-container.post-content hr:hover:before,
+#article-container hr:hover:before,
 .search-dialog hr:hover:before {
   left: calc(95% - 20px);
 }
 .custom-hr:before,
-#article-container.post-content hr:before,
+#article-container hr:before,
 .search-dialog hr:before {
   position: absolute;
   top: -10px;
@@ -1943,6 +1943,41 @@ figure.highlight pre .javascript .function {
 }
 #article-container figure.highlight .highlight-tools .code-lang {
   left: 75px;
+}
+#article-container .code-expand-btn {
+  position: absolute;
+  bottom: 0;
+  z-index: 10;
+  width: 100%;
+  background: var(--hlexpand-bg);
+  text-align: center;
+  font-size: var(--global-font-size);
+  cursor: pointer;
+}
+#article-container .code-expand-btn i {
+  padding: 6px 0;
+  color: var(--hlnumber-color);
+  -webkit-animation: code-expand-key 1.2s infinite;
+  -moz-animation: code-expand-key 1.2s infinite;
+  -o-animation: code-expand-key 1.2s infinite;
+  -ms-animation: code-expand-key 1.2s infinite;
+  animation: code-expand-key 1.2s infinite;
+}
+#article-container .code-expand-btn.expand-done > i {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+#article-container .code-expand-btn.expand-done + table,
+#article-container .code-expand-btn.expand-done + pre {
+  margin-bottom: 1.8em;
+}
+#article-container .code-expand-btn:not(.expand-done) ~ table,
+#article-container .code-expand-btn:not(.expand-done) ~ pre {
+  overflow: hidden;
+  height: 150px;
 }
 @-moz-keyframes code-expand-key {
   0% {
@@ -3975,6 +4010,37 @@ h1.page-title + .tag-cloud-list {
   font-family: Monaco, 'Ubuntu Mono', monospace;
   line-height: 1em;
 }
+#article-container h1,
+#article-container h2,
+#article-container h3,
+#article-container h4,
+#article-container h5,
+#article-container h6 {
+  width: fit-content;
+}
+#article-container h1 a:not(.headerlink),
+#article-container h2 a:not(.headerlink),
+#article-container h3 a:not(.headerlink),
+#article-container h4 a:not(.headerlink),
+#article-container h5 a:not(.headerlink),
+#article-container h6 a:not(.headerlink) {
+  position: relative;
+  z-index: 10;
+}
+#article-container h1 a.headerlink,
+#article-container h2 a.headerlink,
+#article-container h3 a.headerlink,
+#article-container h4 a.headerlink,
+#article-container h5 a.headerlink,
+#article-container h6 a.headerlink {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
 #article-container ol ol,
 #article-container ul ol,
 #article-container ol ul,
@@ -3995,24 +4061,24 @@ h1.page-title + .tag-cloud-list {
 #article-container hr {
   margin: 20px 0;
 }
-#article-container.post-content h1,
-#article-container.post-content h2,
-#article-container.post-content h3,
-#article-container.post-content h4,
-#article-container.post-content h5,
-#article-container.post-content h6 {
+#article-container h1,
+#article-container h2,
+#article-container h3,
+#article-container h4,
+#article-container h5,
+#article-container h6 {
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
   -ms-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
-#article-container.post-content h1:before,
-#article-container.post-content h2:before,
-#article-container.post-content h3:before,
-#article-container.post-content h4:before,
-#article-container.post-content h5:before,
-#article-container.post-content h6:before {
+#article-container h1:before,
+#article-container h2:before,
+#article-container h3:before,
+#article-container h4:before,
+#article-container h5:before,
+#article-container h6:before {
   position: absolute;
   top: calc(50% - 7px);
   color: #f47466;
@@ -4025,81 +4091,81 @@ h1.page-title + .tag-cloud-list {
   -ms-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
-#article-container.post-content h1:hover:before,
-#article-container.post-content h2:hover:before,
-#article-container.post-content h3:hover:before,
-#article-container.post-content h4:hover:before,
-#article-container.post-content h5:hover:before,
-#article-container.post-content h6:hover:before {
+#article-container h1:hover:before,
+#article-container h2:hover:before,
+#article-container h3:hover:before,
+#article-container h4:hover:before,
+#article-container h5:hover:before,
+#article-container h6:hover:before {
   color: #49b1f5;
 }
-#article-container.post-content h1 {
+#article-container h1 {
   padding-left: 28px;
 }
-#article-container.post-content h1:before {
+#article-container h1:before {
   font-size: 18px;
 }
-#article-container.post-content h1:hover {
+#article-container h1:hover {
   padding-left: 32px;
 }
-#article-container.post-content h2 {
+#article-container h2 {
   padding-left: 26px;
 }
-#article-container.post-content h2:before {
+#article-container h2:before {
   font-size: 16px;
 }
-#article-container.post-content h2:hover {
+#article-container h2:hover {
   padding-left: 30px;
 }
-#article-container.post-content h3 {
+#article-container h3 {
   padding-left: 24px;
 }
-#article-container.post-content h3:before {
+#article-container h3:before {
   font-size: 14px;
 }
-#article-container.post-content h3:hover {
+#article-container h3:hover {
   padding-left: 28px;
 }
-#article-container.post-content h4 {
+#article-container h4 {
   padding-left: 22px;
 }
-#article-container.post-content h4:before {
+#article-container h4:before {
   font-size: 12px;
 }
-#article-container.post-content h4:hover {
+#article-container h4:hover {
   padding-left: 26px;
 }
-#article-container.post-content h5 {
+#article-container h5 {
   padding-left: 20px;
 }
-#article-container.post-content h5:before {
+#article-container h5:before {
   font-size: 10px;
 }
-#article-container.post-content h5:hover {
+#article-container h5:hover {
   padding-left: 24px;
 }
-#article-container.post-content h6 {
+#article-container h6 {
   padding-left: 20px;
 }
-#article-container.post-content h6:before {
+#article-container h6:before {
   font-size: 10px;
 }
-#article-container.post-content h6:hover {
+#article-container h6:hover {
   padding-left: 24px;
 }
-#article-container.post-content ol p,
-#article-container.post-content ul p {
+#article-container ol p,
+#article-container ul p {
   margin: 0 0 8px;
 }
-#article-container.post-content li::marker {
+#article-container li::marker {
   color: #49b1f5;
   font-weight: 600;
   font-size: 1.05em;
 }
-#article-container.post-content li:hover::marker {
+#article-container li:hover::marker {
   color: var(--pseudo-hover);
 }
-#article-container.post-content ul > li {
+#article-container ul > li {
   list-style-type: circle;
 }
 #post .tag_share:after {
@@ -4422,6 +4488,21 @@ h1.page-title + .tag-cloud-list {
   #rightside #hide-aside-btn {
     display: none;
   }
+}
+#rightside #go-up .scroll-percent {
+  display: none;
+}
+#rightside #go-up.show-percent .scroll-percent {
+  display: block;
+}
+#rightside #go-up.show-percent .scroll-percent + i {
+  display: none;
+}
+#rightside #go-up:hover .scroll-percent {
+  display: none;
+}
+#rightside #go-up:hover .scroll-percent + i {
+  display: block;
 }
 #sidebar #menu-mask {
   position: fixed;
@@ -6329,4 +6410,76 @@ blockquote.pullquote.right {
   z-index: 1000;
   display: none;
   background: rgba(0,0,0,0.6);
+}
+#local-search .search-dialog .local-search-box {
+  margin: 0 auto;
+  max-width: 100%;
+  width: 100%;
+}
+#local-search .search-dialog .local-search-box input {
+  padding: 5px 14px;
+  width: 100%;
+  outline: none;
+  border: 2px solid #49b1f5;
+  border-radius: 40px;
+  background: var(--search-bg);
+  color: var(--search-input-color);
+  -webkit-appearance: none;
+}
+#local-search .search-dialog .search-wrap {
+  display: none;
+}
+#local-search .search-dialog .local-search-hit-item {
+  position: relative;
+  padding-left: 24px;
+  line-height: 1.7;
+}
+#local-search .search-dialog .local-search-hit-item:hover:before {
+  border-color: var(--pseudo-hover);
+}
+#local-search .search-dialog .local-search-hit-item:before {
+  position: absolute;
+  top: 0.45em;
+  left: 0;
+  width: 0.5em;
+  height: 0.5em;
+  border: 3px solid #49b1f5;
+  border-radius: 0.5em;
+  background: transparent;
+  content: '';
+  line-height: 0.5em;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+#local-search .search-dialog .local-search-hit-item a {
+  display: block;
+  color: var(--search-a-color);
+}
+#local-search .search-dialog .local-search-hit-item a:hover {
+  color: #49b1f5;
+}
+#local-search .search-dialog .local-search-hit-item .search-result-title {
+  font-weight: 600;
+}
+#local-search .search-dialog .local-search-hit-item .search-result {
+  margin: 0 0 8px;
+}
+#local-search .search-dialog .search-result-list {
+  overflow-y: overlay;
+  margin: 0 -20px;
+  padding: 0 22px;
+  max-height: calc(80vh - 200px);
+}
+@media screen and (max-width: 768px) {
+  #local-search .search-dialog .search-result-list {
+    max-height: calc(var(--search-height) - 220px) !important;
+  }
+}
+.search-keyword {
+  background: transparent;
+  color: #f47466;
+  font-weight: bold;
 }
