@@ -1,5 +1,8 @@
+https://insectmk.cn/2024/02/19/game/l4d2-server/
+https://insectmk.cn/2024/02/19/game/minecraft-oldclassnine-server/
+https://insectmk.cn/2024/02/19/game/minecraft-oldclassnine-log/
 https://insectmk.cn/2024/01/31/game/l4d2-plugins/
-https://insectmk.cn/2023/08/04/game/l4d2-server/
+https://insectmk.cn/2023/08/04/game/l4d2-server-build/
 https://insectmk.cn/2024/02/03/game/l4d2-log/
 https://insectmk.cn/website/log/index.html
 https://insectmk.cn/2023/08/16/knowledge/linux-screen/
@@ -24,7 +27,7 @@ https://insectmk.cn/2023/08/01/game/minecraft-docker/
 https://insectmk.cn/2023/06/09/practical/website/
 https://insectmk.cn/2023/08/18/configure-software/qmsg-private-cloud/
 https://insectmk.cn/2023/08/16/configure-software/docker-zentao/
-https://insectmk.cn/2023/08/11/game/csgo-server/
+https://insectmk.cn/2023/08/11/game/csgo-server-build/
 https://insectmk.cn/2023/08/11/configure-software/docker-leanote/
 https://insectmk.cn/2023/08/02/configure-software/frp/
 https://insectmk.cn/2023/08/04/knowledge/linux-command/
