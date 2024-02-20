@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://insectmk.cn/2024/02/20/summary/diary/</loc>
+    <lastmod>2024-02-20</lastmod>
+  </url>
+  <url>
+    <loc>https://insectmk.cn/2024/02/20/tutorial/hexo-blog-encrypt/</loc>
+    <lastmod>2024-02-20</lastmod>
+  </url>
+  <url>
     <loc>https://insectmk.cn/2024/02/19/tutorial/docker-waline-email/</loc>
     <lastmod>2024-02-19</lastmod>
   </url>
@@ -169,19 +177,7 @@
     <lastmod>2023-06-26</lastmod>
   </url>
   <url>
-    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day02-2/</loc>
-    <lastmod>2023-06-26</lastmod>
-  </url>
-  <url>
-    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day02/</loc>
-    <lastmod>2023-06-26</lastmod>
-  </url>
-  <url>
     <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day02-1/</loc>
-    <lastmod>2023-06-26</lastmod>
-  </url>
-  <url>
-    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day06/</loc>
     <lastmod>2023-06-26</lastmod>
   </url>
   <url>
@@ -189,11 +185,23 @@
     <lastmod>2023-06-26</lastmod>
   </url>
   <url>
-    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day07/</loc>
+    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day02/</loc>
     <lastmod>2023-06-26</lastmod>
   </url>
   <url>
     <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day04/</loc>
+    <lastmod>2023-06-26</lastmod>
+  </url>
+  <url>
+    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day02-2/</loc>
+    <lastmod>2023-06-26</lastmod>
+  </url>
+  <url>
+    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day06/</loc>
+    <lastmod>2023-06-26</lastmod>
+  </url>
+  <url>
+    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day07/</loc>
     <lastmod>2023-06-26</lastmod>
   </url>
   <url>
@@ -209,15 +217,7 @@
     <lastmod>2023-06-26</lastmod>
   </url>
   <url>
-    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day10-2/</loc>
-    <lastmod>2023-06-26</lastmod>
-  </url>
-  <url>
     <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day09-3/</loc>
-    <lastmod>2023-06-26</lastmod>
-  </url>
-  <url>
-    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day20-2/</loc>
     <lastmod>2023-06-26</lastmod>
   </url>
   <url>
@@ -225,11 +225,19 @@
     <lastmod>2023-06-26</lastmod>
   </url>
   <url>
-    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day23-1/</loc>
+    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day20-1/</loc>
     <lastmod>2023-06-26</lastmod>
   </url>
   <url>
-    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day20-1/</loc>
+    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day10-2/</loc>
+    <lastmod>2023-06-26</lastmod>
+  </url>
+  <url>
+    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day20-2/</loc>
+    <lastmod>2023-06-26</lastmod>
+  </url>
+  <url>
+    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day23-1/</loc>
     <lastmod>2023-06-26</lastmod>
   </url>
   <url>
@@ -237,11 +245,15 @@
     <lastmod>2023-06-26</lastmod>
   </url>
   <url>
+    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day24-1/</loc>
+    <lastmod>2023-06-26</lastmod>
+  </url>
+  <url>
     <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day24-2/</loc>
     <lastmod>2023-06-26</lastmod>
   </url>
   <url>
-    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day24-1/</loc>
+    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day24-4/</loc>
     <lastmod>2023-06-26</lastmod>
   </url>
   <url>
@@ -250,10 +262,6 @@
   </url>
   <url>
     <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day26/</loc>
-    <lastmod>2023-06-26</lastmod>
-  </url>
-  <url>
-    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day24-4/</loc>
     <lastmod>2023-06-26</lastmod>
   </url>
   <url>
@@ -269,7 +277,7 @@
     <lastmod>2023-06-26</lastmod>
   </url>
   <url>
-    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day39/</loc>
+    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day42-1/</loc>
     <lastmod>2023-06-26</lastmod>
   </url>
   <url>
@@ -277,7 +285,7 @@
     <lastmod>2023-06-26</lastmod>
   </url>
   <url>
-    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day42-1/</loc>
+    <loc>https://insectmk.cn/2023/06/26/education/qianfeng/day39/</loc>
     <lastmod>2023-06-26</lastmod>
   </url>
   <url>
