@@ -1,3 +1,4 @@
+https://insectmk.cn/2023/09/11/configure/springboot-mybatisplus/
 https://insectmk.cn/website/log/index.html
 https://insectmk.cn/2024/02/21/game/cs2-video-funny/
 https://insectmk.cn/2024/02/20/summary/diary/
@@ -25,7 +26,6 @@ https://insectmk.cn/2023/10/01/tutorial/node-vue2/
 https://insectmk.cn/2023/10/01/configure-software/node-nvm/
 https://insectmk.cn/2023/09/14/configure/oss-java/
 https://insectmk.cn/2023/09/11/configure/mybatisplus-pages/
-https://insectmk.cn/2023/09/11/configure/springboot-mybatisplus/
 https://insectmk.cn/2022/12/29/configure/springboot-configure/
 https://insectmk.cn/2023/08/01/game/minecraft-docker/
 https://insectmk.cn/2023/06/09/practical/website/
