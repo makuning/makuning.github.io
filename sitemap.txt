@@ -1,5 +1,5 @@
-https://insectmk.cn/2023/09/11/configure/springboot-mybatisplus/
 https://insectmk.cn/website/log/index.html
+https://insectmk.cn/2023/09/11/configure/springboot-mybatisplus/
 https://insectmk.cn/2024/02/21/game/cs2-video-funny/
 https://insectmk.cn/2024/02/20/summary/diary/
 https://insectmk.cn/2024/02/20/tutorial/hexo-blog-encrypt/
