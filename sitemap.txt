@@ -1,3 +1,7 @@
+https://insectmk.cn/2024/03/04/tutorial/rwkv-build/
+https://insectmk.cn/2023/10/08/configure/springboot-jwt/
+https://insectmk.cn/2024/01/26/tutorial/chatglm2-6b-api/
+https://insectmk.cn/2023/08/02/configure-software/frp/
 https://insectmk.cn/2024/02/26/configure/vuetify-project-build/
 https://insectmk.cn/2024/02/26/tutorial/springboot-mail/
 https://insectmk.cn/2023/09/11/configure/springboot-mybatisplus/
@@ -14,12 +18,10 @@ https://insectmk.cn/2023/08/04/game/l4d2-server-build/
 https://insectmk.cn/2024/02/03/game/l4d2-log/
 https://insectmk.cn/2023/08/16/knowledge/linux-screen/
 https://insectmk.cn/extend/remind/index.html
-https://insectmk.cn/2024/01/26/tutorial/chatglm2-6b-api/
 https://insectmk.cn/2024/01/17/tutorial/chatglm2-6b-build/
 https://insectmk.cn/2024/01/25/knowledge/anaconda/
 https://insectmk.cn/2024/01/23/game/minecraft-mohist/
 https://insectmk.cn/2023/10/10/tutorial/docker-waline/
-https://insectmk.cn/2023/10/08/configure/springboot-jwt/
 https://insectmk.cn/2023/10/08/configure/vue2-router-defend/
 https://insectmk.cn/2023/10/08/configure/vue2-router/
 https://insectmk.cn/2023/10/07/configure/springboot-cross-domain/
@@ -35,7 +37,6 @@ https://insectmk.cn/2023/08/18/configure-software/qmsg-private-cloud/
 https://insectmk.cn/2023/08/16/configure-software/docker-zentao/
 https://insectmk.cn/2023/08/11/game/csgo-server-build/
 https://insectmk.cn/2023/08/11/configure-software/docker-leanote/
-https://insectmk.cn/2023/08/02/configure-software/frp/
 https://insectmk.cn/2023/08/04/knowledge/linux-command/
 https://insectmk.cn/2023/07/31/knowledge/docker/
 https://insectmk.cn/2023/08/04/game/l4d2-server-tick/
@@ -196,6 +197,8 @@ https://insectmk.cn/tags/%E6%B1%82%E7%94%9F%E4%B9%8B%E8%B7%AF/
 https://insectmk.cn/tags/Vuetify/
 https://insectmk.cn/tags/Vue3/
 https://insectmk.cn/tags/%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1/
+https://insectmk.cn/tags/RWKV/
+https://insectmk.cn/tags/%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/
 https://insectmk.cn/categories/%E7%A8%8B%E5%BA%8F%E9%85%8D%E7%BD%AE/
 https://insectmk.cn/categories/%E8%BD%AF%E4%BB%B6%E9%85%8D%E7%BD%AE/
 https://insectmk.cn/categories/%E6%B8%B8%E6%88%8F/
