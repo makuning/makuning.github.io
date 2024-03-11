@@ -1,3 +1,5 @@
+https://insectmk.cn/2024/02/19/game/minecraft-oldclassnine-log/
+https://insectmk.cn/2024/02/19/game/minecraft-oldclassnine-server/
 https://insectmk.cn/website/log/index.html
 https://insectmk.cn/extend/remind/index.html
 https://insectmk.cn/2024/03/09/tutorial/springboot-vue-sessionid/
@@ -13,8 +15,6 @@ https://insectmk.cn/2024/02/20/summary/diary/
 https://insectmk.cn/2024/02/20/tutorial/hexo-blog-encrypt/
 https://insectmk.cn/2024/02/19/tutorial/docker-waline-email/
 https://insectmk.cn/2024/02/19/game/l4d2-server/
-https://insectmk.cn/2024/02/19/game/minecraft-oldclassnine-log/
-https://insectmk.cn/2024/02/19/game/minecraft-oldclassnine-server/
 https://insectmk.cn/2024/01/31/game/l4d2-plugins/
 https://insectmk.cn/2023/08/04/game/l4d2-server-build/
 https://insectmk.cn/2024/02/03/game/l4d2-log/
