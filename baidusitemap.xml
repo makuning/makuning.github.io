@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://insectmk.cn/2024/01/23/game/minecraft-mohist/</loc>
+    <lastmod>2024-03-12</lastmod>
+  </url>
+  <url>
+    <loc>https://insectmk.cn/2024/03/12/tutorial/ubuntu-easyn2n-build/</loc>
+    <lastmod>2024-03-12</lastmod>
+  </url>
+  <url>
     <loc>https://insectmk.cn/2024/02/19/game/minecraft-oldclassnine-log/</loc>
-    <lastmod>2024-03-11</lastmod>
+    <lastmod>2024-03-12</lastmod>
   </url>
   <url>
     <loc>https://insectmk.cn/2024/02/19/game/minecraft-oldclassnine-server/</loc>
-    <lastmod>2024-03-11</lastmod>
+    <lastmod>2024-03-12</lastmod>
   </url>
   <url>
     <loc>https://insectmk.cn/2024/03/09/tutorial/springboot-vue-sessionid/</loc>
@@ -83,10 +91,6 @@
   <url>
     <loc>https://insectmk.cn/2024/01/25/knowledge/anaconda/</loc>
     <lastmod>2024-01-25</lastmod>
-  </url>
-  <url>
-    <loc>https://insectmk.cn/2024/01/23/game/minecraft-mohist/</loc>
-    <lastmod>2024-01-24</lastmod>
   </url>
   <url>
     <loc>https://insectmk.cn/2023/10/10/tutorial/docker-waline/</loc>
