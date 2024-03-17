@@ -1,4 +1,5 @@
 https://insectmk.cn/2024/02/03/game/l4d2-log/
+https://insectmk.cn/2024/01/31/game/l4d2-plugins/
 https://insectmk.cn/2024/02/19/game/l4d2-server/
 https://insectmk.cn/2024/02/20/summary/diary/
 https://insectmk.cn/2024/01/23/game/minecraft-mohist/
@@ -18,7 +19,6 @@ https://insectmk.cn/2023/09/11/configure/springboot-mybatisplus/
 https://insectmk.cn/2024/02/21/game/cs2-video-funny/
 https://insectmk.cn/2024/02/20/tutorial/hexo-blog-encrypt/
 https://insectmk.cn/2024/02/19/tutorial/docker-waline-email/
-https://insectmk.cn/2024/01/31/game/l4d2-plugins/
 https://insectmk.cn/2023/08/04/game/l4d2-server-build/
 https://insectmk.cn/2023/08/16/knowledge/linux-screen/
 https://insectmk.cn/2024/01/17/tutorial/chatglm2-6b-build/

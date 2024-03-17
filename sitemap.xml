@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>https://insectmk.cn/2024/01/31/game/l4d2-plugins/</loc>
+    
+    <lastmod>2024-03-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://insectmk.cn/2024/02/19/game/l4d2-server/</loc>
     
     <lastmod>2024-03-15</lastmod>
@@ -176,15 +185,6 @@
     <loc>https://insectmk.cn/2024/02/19/tutorial/docker-waline-email/</loc>
     
     <lastmod>2024-02-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://insectmk.cn/2024/01/31/game/l4d2-plugins/</loc>
-    
-    <lastmod>2024-02-04</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
