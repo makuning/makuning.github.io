@@ -1,3 +1,4 @@
+https://insectmk.cn/2024/03/17/tutorial/windows11-wsl-ubuntu-build/
 https://insectmk.cn/2024/02/03/game/l4d2-log/
 https://insectmk.cn/2024/01/31/game/l4d2-plugins/
 https://insectmk.cn/2024/02/19/game/l4d2-server/
@@ -203,6 +204,8 @@ https://insectmk.cn/tags/Vue/
 https://insectmk.cn/tags/%E5%8D%83%E9%94%8B%E6%95%99%E8%82%B2/
 https://insectmk.cn/tags/%E5%9F%B9%E8%AE%AD/
 https://insectmk.cn/tags/EasyN2N/
+https://insectmk.cn/tags/Windows11/
+https://insectmk.cn/tags/WSL/
 https://insectmk.cn/categories/%E8%BD%AF%E4%BB%B6%E9%85%8D%E7%BD%AE/
 https://insectmk.cn/categories/%E7%A8%8B%E5%BA%8F%E9%85%8D%E7%BD%AE/
 https://insectmk.cn/categories/%E6%B8%B8%E6%88%8F/

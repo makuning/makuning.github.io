@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://insectmk.cn/2024/03/17/tutorial/windows11-wsl-ubuntu-build/</loc>
+    
+    <lastmod>2024-03-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://insectmk.cn/2024/02/03/game/l4d2-log/</loc>
     
     <lastmod>2024-03-17</lastmod>
@@ -1663,6 +1672,20 @@
   
   <url>
     <loc>https://insectmk.cn/tags/EasyN2N/</loc>
+    <lastmod>2024-03-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://insectmk.cn/tags/Windows11/</loc>
+    <lastmod>2024-03-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://insectmk.cn/tags/WSL/</loc>
     <lastmod>2024-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

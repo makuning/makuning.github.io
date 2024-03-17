@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>在Windows11上安装Ubuntu子系统</title>
+      <link href="/2024/03/17/tutorial/windows11-wsl-ubuntu-build/"/>
+      <url>/2024/03/17/tutorial/windows11-wsl-ubuntu-build/</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>最近毕设到最关键的一步了，就是模型训练，根据<code>RWKV Runner</code>的训练提示，需要安装WSL子系统，那就装吧，反正也没坏处。</p><h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><h3 id="开启WSL"><a href="#开启WSL" class="headerlink" title="开启WSL"></a>开启WSL</h3><p><code>控制面板</code> -&gt; <code>程序</code> -&gt; <code>程序和功能</code> -&gt; <code>启用或关闭Windows功能</code>，点击确定后<strong>重启电脑</strong></p><p><img src="https://image.insectmk.cn/hexo-gitee-blog/article/_post/tutorial/windows11-wsl-ubuntu-build/image-20240317184345178.png" alt="image-20240317184345178"></p><p>打开<code>终端</code>，输入<code>wsl --set-default-version 1</code>，切换WSL版本</p><h3 id="安装Ubuntu"><a href="#安装Ubuntu" class="headerlink" title="安装Ubuntu"></a>安装Ubuntu</h3><p>打开<code>微软应用商店</code>，搜索<code>ubuntu</code>，我这里下载<code>Ubuntu 20.04.6 LTS</code>版本，点击<code>安装</code>后稍作等待</p><p><img src="https://image.insectmk.cn/hexo-gitee-blog/article/_post/tutorial/windows11-wsl-ubuntu-build/image-20240317184748368.png" alt="image-20240317184748368"></p><p>下载完成后点击<code>打开</code>，则进行自动安装，安装完毕后需要输入<code>用户名</code>、<code>密码</code>以及<code>重复密码</code>，输入完成后即可进入系统：</p><p><img src="https://image.insectmk.cn/hexo-gitee-blog/article/_post/tutorial/windows11-wsl-ubuntu-build/image-20240317185920873.png" alt="image-20240317185920873"></p><h3 id="修改root密码"><a href="#修改root密码" class="headerlink" title="修改root密码"></a>修改root密码</h3><p>在ubuntu系统中输入<code>sudo passwd root</code>以修改root密码。</p><p>如果你想在使用<code>sudo</code>时不输入用户密码，可以使用以下操作取消密码输入：</p><ol><li>使用<code>sudo visudo</code>，编辑权限文件。</li><li>找到<code>%sudo   ALL=(ALL:ALL) ALL</code>，更改为<code>%sudo   ALL=(ALL:ALL) NOPASSWD: ALL</code>。</li><li>先使用<code>ctrl</code>+<code>s</code>组合键进行保存，然后使用<code>ctrl</code>+<code>x</code>组合键关闭文件。</li></ol><h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><p><a href="https://zhuanlan.zhihu.com/p/393484912">在 Windows 11 上安装 Ubuntu 20.04 WSL Linux</a></p><p><a href="https://blog.csdn.net/xiansenLee/article/details/116952730">wsl默认root密码修改及默认root登录</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Ubuntu </tag>
+            
+            <tag> 毕业设计 </tag>
+            
+            <tag> Windows11 </tag>
+            
+            <tag> WSL </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Ubuntu搭建EasyN2N小黄鸭并使用</title>
       <link href="/2024/03/12/tutorial/ubuntu-easyn2n-build/"/>
       <url>/2024/03/12/tutorial/ubuntu-easyn2n-build/</url>
@@ -367,7 +398,7 @@
       <link href="/2024/01/31/game/l4d2-plugins/"/>
       <url>/2024/01/31/game/l4d2-plugins/</url>
       
-        <content type="html"><![CDATA[<h2 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h2><p><a href="http://www.hxzct.asia/cjxz/">黄向真仇天的插件记录网站</a>：记录了各大插件的网站，无意间搜索到的，强推！！！</p><p><a href="http://l4d.vihh.net/forum.php?mod=viewthread&tid=75422&extra=page=1">豆瓣酱整合包</a>：非常好用的插件整合包</p><p><a href="https://github.com/fbef0102/Game-Private_Plugin">哈利波特插件</a>：非常友好的插件作者</p><p><a href="https://pan.baidu.com/s/1bdQAzupBq5PstC1fku162g">自用插件链接</a> 提取码：left</p><p><a href="https://forums.alliedmods.net/showthread.php?p=2757313">持武器不同移速</a></p><h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><p><a href="https://www.alsaces.cn/posts/314a5cd5/">搭建求生之路2服务器和插件分享</a></p><h2 id="后语"><a href="#后语" class="headerlink" title="后语"></a>后语</h2><p>特别感谢室友<a href="https://starisora.cn/">Starisora</a>推荐的插件</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h2><p><a href="https://www.hxzct.asia/">黄向真仇天的插件记录网站</a>：记录了各大插件的网站，无意间搜索到的，强推！！！</p><p><a href="http://l4d.vihh.net/forum.php?mod=viewthread&tid=75422&extra=page=1">豆瓣酱整合包</a>：非常好用的插件整合包</p><p><a href="https://github.com/fbef0102/Game-Private_Plugin">哈利波特插件</a>：非常友好的插件作者</p><p><a href="https://pan.baidu.com/s/1bdQAzupBq5PstC1fku162g">自用插件链接</a> 提取码：left</p><p><a href="https://forums.alliedmods.net/showthread.php?p=2757313">持武器不同移速</a></p><h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><p><a href="https://www.alsaces.cn/posts/314a5cd5/">搭建求生之路2服务器和插件分享</a></p><h2 id="后语"><a href="#后语" class="headerlink" title="后语"></a>后语</h2><p>特别感谢室友<a href="https://starisora.cn/">Starisora</a>推荐的插件</p>]]></content>
       
       
       <categories>
