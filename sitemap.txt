@@ -1,4 +1,6 @@
 https://insectmk.cn/2024/02/20/summary/diary/
+https://insectmk.cn/2024/02/19/game/minecraft-oldclassnine-log/
+https://insectmk.cn/2024/02/19/game/minecraft-oldclassnine-server/
 https://insectmk.cn/2024/03/18/configure/vue2-elementui-form/
 https://insectmk.cn/2024/03/17/tutorial/rwkv-runner-train/
 https://insectmk.cn/2024/03/17/tutorial/windows11-wsl-ubuntu-build/
@@ -7,8 +9,6 @@ https://insectmk.cn/2024/01/31/game/l4d2-plugins/
 https://insectmk.cn/2024/02/19/game/l4d2-server/
 https://insectmk.cn/2024/01/23/game/minecraft-mohist/
 https://insectmk.cn/2024/03/12/tutorial/ubuntu-easyn2n-build/
-https://insectmk.cn/2024/02/19/game/minecraft-oldclassnine-log/
-https://insectmk.cn/2024/02/19/game/minecraft-oldclassnine-server/
 https://insectmk.cn/website/log/index.html
 https://insectmk.cn/extend/remind/index.html
 https://insectmk.cn/2024/03/09/tutorial/springboot-vue-sessionid/
