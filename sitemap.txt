@@ -1,4 +1,5 @@
 https://insectmk.cn/website/log/index.html
+https://insectmk.cn/2023/08/11/configure-software/docker-leanote/
 https://insectmk.cn/2024/03/23/configure-software/ubuntu-1panel-build/
 https://insectmk.cn/2024/02/20/summary/diary/
 https://insectmk.cn/2024/02/19/game/minecraft-oldclassnine-log/
@@ -42,7 +43,6 @@ https://insectmk.cn/2023/06/09/practical/website/
 https://insectmk.cn/2023/08/18/configure-software/qmsg-private-cloud/
 https://insectmk.cn/2023/08/16/configure-software/docker-zentao/
 https://insectmk.cn/2023/08/11/game/csgo-server-build/
-https://insectmk.cn/2023/08/11/configure-software/docker-leanote/
 https://insectmk.cn/2023/08/04/knowledge/linux-command/
 https://insectmk.cn/2023/07/31/knowledge/docker/
 https://insectmk.cn/2023/08/04/game/l4d2-server-tick/
