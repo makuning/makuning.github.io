@@ -1,4 +1,6 @@
+https://insectmk.cn/2024/03/26/configure/springboot-validation/
 https://insectmk.cn/website/log/index.html
+https://insectmk.cn/2024/03/25/tutorial/docker-firefly-iii-build/
 https://insectmk.cn/2023/08/11/configure-software/docker-leanote/
 https://insectmk.cn/2024/02/20/summary/diary/
 https://insectmk.cn/2024/03/23/configure-software/ubuntu-1panel-build/
